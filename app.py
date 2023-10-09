@@ -13,11 +13,81 @@ import plotly.graph_objects as go
 #from scipy.signal import lfilter, lfiltic
 import datetime
 #import sys
+#import os
 
+###Credits Sakari Cajanus 1 Mar 2020 on https://stackoverflow.com/questions/49827096/generating-a-plotly-heat-map-from-a-pandas-pivot-table
 def df_to_plotly(df):
     return {'z': df.values.tolist(),
             'x': df.columns.tolist(),
             'y': df.index.tolist()}
+
+def update_logs091023(low, high, fd, filename):
+    with open(filename, 'a') as f:
+        if fd == 1:
+            f.write(str(low) + "\t" + str(high-1) + "\t" + str(fd) + "\t" + "No file\n")
+        else:
+            f.write(str(low) + "\t" + str(high-1) + "\t" + str(fd) + "\t" + "See ---.txt\n")
+
+def peak_detected(b_l, low, high, fd):
+    if fd == 1:
+        A = "ABB"
+    else:
+        #{'1':low,'2':high-1,'3':fd,'4':"add results of sliding window"}
+
+        ### Starting Peak Detection. Creation of 9x5 sliding window. 
+        for h in range(2,37+1):
+            with open("./data/b_l_range"+str(low)+"_to_"+str(high-1)+".txt"    , "a") as branch_file:
+
+                for w in range(4,136+1):
+                    #TESTER w=5; h=20
+                    th_motion = (
+                    b_l[w-4][h-2]+
+                    b_l[w-3][h-2]+
+                    b_l[w-4][h-1]+
+                    b_l[w-3][h-1]+
+                    b_l[w-4][h-0]+
+                    b_l[w-3][h-0]+
+                    b_l[w-4][h+1]+
+                    b_l[w-3][h+1]+
+                    b_l[w-4][h+2]+
+                    b_l[w-3][h+2]+
+
+                    b_l[w-2][h-2]+
+                    b_l[w-1][h-2]+
+                    b_l[w-0][h-2]+
+                    b_l[w+1][h-2]+
+                    b_l[w+2][h-2]+
+
+                    b_l[w+4][h-2]+
+                    b_l[w+3][h-2]+
+                    b_l[w+4][h-1]+
+                    b_l[w+3][h-1]+
+                    b_l[w+4][h-0]+
+                    b_l[w+3][h-0]+
+                    b_l[w+4][h+1]+
+                    b_l[w+3][h+1]+
+                    b_l[w+4][h+2]+
+                    b_l[w+3][h+2]+
+
+                    b_l[w-2][h+2]+
+                    b_l[w-1][h+2]+
+                    b_l[w-0][h+2]+
+                    b_l[w+1][h+2]+
+                    b_l[w+2][h+2])/30
+
+                    #print("b_l["    ,w,   "]["   ,h,   "] is ",
+                    #      np.round(b_l[w][h],6), " \t 1.5*noise threshold is ", np.round(1.5*th_motion,6))
+
+                    branch_file.write("b_l["  +  str(w)  +  "]["  +  str(h)  +  "] is "  +
+                        str(np.round(b_l[w][h],6))  +  " \t 1.5*noise threshold is "  +  str(np.round(1.5*th_motion,6))+"\n")
+                    if b_l[w][h]>=1.5*th_motion:
+                        branch_file.write("Yes human detected.\n")
+                    else:
+                        branch_file.write("Move to next.\n")
+        
+    update_logs091023(low, high, fd, "./data/logs"+DDMM+"23.txt")
+    A="XYZ"
+    return A
 
 st.set_page_config(
     page_title = '[Room Occupancy:] Real-Time Signal Processing',
@@ -26,8 +96,8 @@ st.set_page_config(
 )
 
 # read csv from a github repo
-#dataset_url = "https://raw.githubusercontent.com/wyCHEUNGa/HomeWaves/main/1rename21.csv"
-dataset_url = "https://raw.githubusercontent.com/wyCHEUNGa/HomeWaves/main/raw0glide.csv"
+dataset_url = "https://raw.githubusercontent.com/wyCHEUNGa/HomeWaves/main/1rename21.csv"
+#dataset_url = "https://raw.githubusercontent.com/wyCHEUNGa/HomeWaves/main/raw0glide.csv"
 #df_RO = pd.read_csv("https://raw.githubusercontent.com/Lexie88rus/bank-marketing-analysis/master/bank.csv")
 
 # read csv from a URL
@@ -35,9 +105,12 @@ dataset_url = "https://raw.githubusercontent.com/wyCHEUNGa/HomeWaves/main/raw0gl
 def get_data() -> pd.DataFrame:
     return pd.read_csv(dataset_url, header=None)
 
-df = get_data()
+#df = get_data()
+df = pd.read_csv(dataset_url, header=None)
 
-TP01 = "Initialisaton of Pandas DataFrame completed."
+DDMM = "0910"  ### Update Correct Today's Date ###
+TP01 = "Program Loaded"
+TP02 = "Initialisaton of Pandas DataFrame completed."
 TP03 = "Demo Code Starts Here"
 TP12 = "Debugging>>>"
 
@@ -46,12 +119,21 @@ TP12 = "Debugging>>>"
 ########################################################################
 ########################################################################
 
+now = datetime.datetime.now()
+try:
+    f = open("./data/logs"+DDMM+"23.txt","x")
+    f.write("Computer Time is" + str(now) + "\n")
+    f.close()
+except OSError as e:
+    print(TP12, " Try deleting files in ./data folder and refresh programme")
+else:
+    print(TP01)
 
 ### Prepare All My Test Buffers ####Tester:      #df_141complex.shape  #series_141
 df_141i = pd.DataFrame(index=range(len(df.index)),columns=range(141))
 df_141q = pd.DataFrame(index=range(len(df.index)),columns=range(141))
 df_141complex = pd.DataFrame(index=range(len(df.index)),columns=range(141))
-print(TP01)
+print(TP02)
 #Create sqrt(i^2 + q^2)
 for v in range(141):
     df_141i[v] = df[v] ###+df[i+141]
@@ -62,19 +144,18 @@ for v in range(141):
 print(70)
 #Transposed for signal processing
 dataT=df_141complex.transpose()
-
 ################################################################################################################################################
 
 ### Prior starting signal processing, the order of windows is chosen as 26 and 50 resp.
 rcParams['figure.figsize'] = 5.7,3.27
 #Window shape Hamming, while the LPF filter
 # freqy above 250Hz
-numtaps = 26
+numtaps = 26 #page 70:09
 f2 = 250/1000 #end of notch
 h = signal.firwin(numtaps+1, f2*2,pass_zero='lowpass',window='hamming')
 #plt.stem(fftpack.fftfreq(h.size),     np.abs(fftpack.fft(h)),  linefmt ='--', markerfmt ='')
 
-numtaps = 50
+numtaps = 50 #page 70:09
 f2 = 100/1000
 h50 = signal.firwin(numtaps+1, f2*2)
 #plt.xlim(0,0.6)
@@ -129,7 +210,7 @@ print('Done Signal Proc, 3 charts will be displayed.')
 ################################################################################################################################################
 
 ### Starting Background Noise Removal
-beta=0.97
+beta=0.97 #page 70:10
 k=7
 
 s = (len(df_141complex[0]),len(array2[0]))
@@ -157,7 +238,7 @@ s = (141,10); b_s=np.zeros(s)
 s = (141,40); b_l=np.zeros(s)
 s = (10); tem=np.zeros(s)
 s = (40); longobsvtem=np.zeros(s)
-c = 1.2
+c = 1.2 #page 70:10
 cnt = 0
 
 #Update fastdetected database, How to use:
@@ -181,13 +262,7 @@ while(cnt<np.floor(len(df_141complex[0])/40)):
     cnt=cnt+1
     ########################################################
 
-    ###30 31        32 33      34 35           36 37           38 39###
-    ####For the next b_l block.
-    #choose another [40-80) by using cnt++; low=cnt*40
-
-    #Code for b_s signalSTR
-    #Compare bssignalSTR > c*bl c*signalSTR
-    #Yes then discard  #No then further use peak detection
+    #For 1x single b_l block, finding out FFT is useable or not useable
     signalSTR = np.max(b_s)/(np.sum(b_s)/(10*141))
 
     for j in range(0,141):
@@ -203,11 +278,23 @@ while(cnt<np.floor(len(df_141complex[0])/40)):
         
     signalSTRL = np.max(b_l)/(np.sum(b_l)/(10*141))
     if signalSTR>(c*signalSTRL):
-        print(signalSTR,signalSTRL*c,'To Be Discarded.')
+        print(signalSTR,signalSTRL*c,'To Be Discarded.') #page 70:10
         fastdetected = 1
+        
     else:
         print(signalSTR,signalSTRL*c,'No Fast Movement Detected, Proceed.')
         fastdetected = 0
+
+    ############################################################################################################################################
+    
+    #Continued, so if FFT is useable, find peak amplitude
+
+    peak_detected(b_l, low, high, fastdetected)
+    print("Done Selecting Peaks, Logs Available. ")
+
+################################################################################################################################################
+
+#### Starting "Vibration Decomposition via Variational Mode Decomposition" -- Multi-Sequence VMD Algorithm
 
 ########################################################################
 ########################################################################
@@ -255,7 +342,6 @@ for seconds in range(190): #smth to do with once every 5~6 seconds
             #range_x (list of two numbers) – If provided, overrides
             #auto-scaling on the x-axis in cartesian coordinates.
         gofig.update_layout(margin={'t':20,'b':0,'l':0,'r':0})
-        #figline.update_layout(margin={'t':0,'b':0,'l':0,'r':0})
         st.write(gofig)
 
 
@@ -305,7 +391,7 @@ for seconds in range(190): #smth to do with once every 5~6 seconds
         kpi1, kpi2, kpi3 = st.columns(3)
 
         # fill in those three columns with respective metrics or KPIs 
-        kpi1.metric(label="df_141complex min value⏳", value=np.min(dataT[180])+5*np.random.randn(), delta= np.min(dataT[180])+5*np.random.randn() - 10)
+        kpi1.metric(label="Test update every 5~6 seconds⏳", value=np.min(dataT[180])+5*np.random.randn(), delta= np.min(dataT[180])+5*np.random.randn() - 10)
         #kpi2.metric(label="Married Count 💍", value= int(count_married), delta= - 10 + count_married)
         #kpi3.metric(label="A/C Balance ＄", value= f"$ {round(balance,2)} ", delta= - round(balance/count_married) * 100)
         
