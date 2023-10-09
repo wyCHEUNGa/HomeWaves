@@ -104,7 +104,6 @@ dataset_url = "https://raw.githubusercontent.com/wyCHEUNGa/HomeWaves/main/1renam
 @st.cache_data
 def get_data() -> pd.DataFrame:
     return pd.read_csv(dataset_url, header=None)
-
 #df = get_data()
 df = pd.read_csv(dataset_url, header=None)
 
