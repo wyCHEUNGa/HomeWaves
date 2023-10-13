@@ -4,13 +4,16 @@ import pandas as pd # read csv, df manipulation
 import time # to simulate a real time data, time loop 
 import plotly.express as px # interactive charts 
 
+#from numpy.fft import fft, ifft,fftfreq, fftshift
+from scipy import fftpack
 from scipy import signal
 import matplotlib.pyplot as plt
 from matplotlib import rcParams
-import seaborn as sns
+#import seaborn as sns
 import plotly.graph_objects as go
 
 #from scipy.signal import lfilter, lfiltic
+from PIL import Image
 import datetime
 #import sys
 #import os
@@ -89,6 +92,18 @@ def peak_detected(b_l, low, high, fd):
     A="XYZ"
     return A
 
+def image_show(image,caption):
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        st.write(' ')
+
+    with col2:
+        st.image(image, caption=caption)
+
+    with col3:
+        st.write(' ')
+
 st.set_page_config(
     page_title = '[Room Occupancy:] Real-Time Signal Processing',
     page_icon = '✅',
@@ -107,7 +122,7 @@ def get_data() -> pd.DataFrame:
 #df = get_data()
 df = pd.read_csv(dataset_url, header=None)
 
-DDMM = "0910"  ### Update Correct Today's Date ###
+DDMM = "1310"  ### Update Correct Today's Date ###
 TP01 = "Program Loaded"
 TP02 = "Initialisaton of Pandas DataFrame completed."
 TP03 = "Demo Code Starts Here"
@@ -125,6 +140,8 @@ try:
     f.close()
 except OSError as e:
     print(TP12, " Try deleting files in ./data folder and refresh programme")
+    print("\n\nReady, Set, Go!")
+    exit()
 else:
     print(TP01)
 
@@ -160,16 +177,13 @@ h50 = signal.firwin(numtaps+1, f2*2)
 #plt.xlim(0,0.6)
 
 ###Use of LPF n Smooth Filter  (17 Sep 23)
-from numpy.fft import fft, ifft,fftfreq, fftshift
-from scipy import fftpack
-
 s = (len(df_141complex[0]),141)
 
 array1=np.zeros(s, dtype=complex)
 
 array2=np.zeros(s, dtype=complex)
 
-#M = 20
+#M = 50
 #coef = np.hamming(M+1)
 #coef = signal.windows.hamming(M+1)
 start_dist_of_interest = 0
@@ -209,7 +223,7 @@ print('Done Signal Proc, 3 charts will be displayed.')
 ################################################################################################################################################
 
 ### Starting Background Noise Removal
-beta=0.97 #page 70:10
+beta=0.97 #page 70:10 #𝑐𝑘(𝑡) = 𝛽𝑐𝑘−1(𝑡) + (1 − 𝛽)𝑟𝑘(𝑡)
 k=7
 
 s = (len(df_141complex[0]),len(array2[0]))
@@ -220,7 +234,7 @@ for k in range(0, len(df_141complex[0])):
     for i in range(0, len(dataT[0])):
         if i == 0:
             B2[k][i] = (1-beta)*np.abs(array2[k][i])
-        else:
+        else: 
             B2[k][i] = (1-beta)*np.abs(array2[k][i]) + beta*B2[k][i-1]
         
         clutter_suppr[k][i] = np.abs(array2[k][i]) - B2[k][i]
@@ -314,25 +328,25 @@ placeholder = st.empty()
 for seconds in range(190): #smth to do with once every 5~6 seconds
 #while True: 
     
-    #These are some tricks
-    
-    #df_RO['age_new'] = df_RO['age'] * np.random.choice(range(1,5)) #Creative but what's the point x1 to x4
-    #df_RO['balance_new'] = df_RO['balance'] * np.random.choice(range(1,5)) #likewise, no point
+            #These are some tricks
+            
+            #df_RO['age_new'] = df_RO['age'] * np.random.choice(range(1,5)) #Creative but what's the point x1 to x4
+            #df_RO['balance_new'] = df_RO['balance'] * np.random.choice(range(1,5)) #likewise, no point
 
-    # creating KPIs. These are some tricks
-    
-    #avg_age = np.mean(df_RO['age_new']) 
+            # creating KPIs. These are some tricks
+            
+            #avg_age = np.mean(df_RO['age_new']) 
 
-    #count_married = int(df_RO[(df_RO["marital"]=='married')]['marital'].count() + np.random.choice(range(1,30)))
-    
-    #balance = np.mean(df_RO['balance_new'])
+            #count_married = int(df_RO[(df_RO["marital"]=='married')]['marital'].count() + np.random.choice(range(1,30)))
+            
+            #balance = np.mean(df_RO['balance_new'])
 
     with placeholder.container():
 
         # create placeholder for charts 
 
 
-        st.markdown("### Detailed Data View")
+        st.markdown("### Detailed UWB Data View")
         st.dataframe(df_141complex)
 
 
@@ -342,6 +356,9 @@ for seconds in range(190): #smth to do with once every 5~6 seconds
             #auto-scaling on the x-axis in cartesian coordinates.
         gofig.update_layout(margin={'t':20,'b':0,'l':0,'r':0})
         st.write(gofig)
+
+
+        image_show(Image.open("./img/DataflowPicture1.png"),"Explained Dataflow with DataflowPicture1")
 
 
         k=3
@@ -366,6 +383,9 @@ for seconds in range(190): #smth to do with once every 5~6 seconds
             plt.stem(np.abs(array2[i]),label='temp', linefmt ='-', markerfmt ='')
             st.pyplot(fig)
         
+
+        image_show(Image.open("./img/DataflowPicture2.png"),"Explained Dataflow with DataflowPicture2")
+
 
         st.markdown("### Results of Background Removal")
         #4 Result of Cascaded Filter
