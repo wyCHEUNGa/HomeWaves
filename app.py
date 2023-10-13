@@ -111,8 +111,8 @@ st.set_page_config(
 )
 
 # read csv from a github repo
-dataset_url = "https://raw.githubusercontent.com/wyCHEUNGa/HomeWaves/main/1rename21.csv"
-#dataset_url = "https://raw.githubusercontent.com/wyCHEUNGa/HomeWaves/main/raw0glide.csv"
+#dataset_url = "https://raw.githubusercontent.com/wyCHEUNGa/HomeWaves/main/1rename21.csv"
+dataset_url = "https://raw.githubusercontent.com/wyCHEUNGa/HomeWaves/main/test2.csv"
 #df_RO = pd.read_csv("https://raw.githubusercontent.com/Lexie88rus/bank-marketing-analysis/master/bank.csv")
 
 # read csv from a URL
@@ -285,11 +285,11 @@ while(cnt<np.floor(len(df_141complex[0])/40)):
                                                     #longobsvtem[40]
                                                     #i = [0:40)
                                                     #i = [1080:1120)
-                                                    #i = [1120:~nvm]
+                                                    #i = [1120:~not computerised]
         
         b_l[j][:]=np.abs(fftpack.fft(longobsvtem))
         
-    signalSTRL = np.max(b_l)/(np.sum(b_l)/(10*141))
+    signalSTRL = np.max(b_l)/(np.sum(b_l)/(40*141))
     if signalSTR>(c*signalSTRL):
         print(signalSTR,signalSTRL*c,'To Be Discarded.') #page 70:10
         fastdetected = 1
