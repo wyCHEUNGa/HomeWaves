@@ -328,13 +328,10 @@ while(cnt<np.floor(len(df_141complex[0])/40)):
 
     flags_if = peak_detected(b_l, low, high, fastdetected)
     for i in range(len(flags_if)):
-        if(i==0):
-            print(flags_if[i],end="")
+        if i%141 == 140:
+            print(flags_if[i])
         else:
-            if i%141 > 0:
-                print(flags_if[i],end="")
-            else:
-                print(flags_if[i])
+            print(flags_if[i],end="")
     print("\n\n")
     print("Done Selecting Peaks, Logs Available. ")
 
