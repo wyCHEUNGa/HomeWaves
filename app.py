@@ -32,65 +32,89 @@ def update_logs091023(low, high, fd, filename):
             f.write(str(low) + "\t" + str(high-1) + "\t" + str(fd) + "\t" + "See ---.txt\n")
 
 def peak_detected(b_l, low, high, fd):
-    if fd == 1:
-        A = "ABB"
-    else:
-        #{'1':low,'2':high-1,'3':fd,'4':"add results of sliding window"}
+    temp=[]
 
-        ### Starting Peak Detection. Creation of 9x5 sliding window. 
-        for h in range(2,37+1):
+    if fd == 1:
+        temp[:40] = np.zeros(40)
+
+    else:
+    #{'1':low,'2':high-1,'3':fd,'4':"add results of sliding window"}
+
+        for h in range(0,40):
             with open("./data/b_l_range"+str(low)+"_to_"+str(high-1)+".txt"    , "a") as branch_file:
 
-                for w in range(4,136+1):
+                for w in range(0,141):
                     #TESTER w=5; h=20
-                    th_motion = (
-                    b_l[w-4][h-2]+
-                    b_l[w-3][h-2]+
-                    b_l[w-4][h-1]+
-                    b_l[w-3][h-1]+
-                    b_l[w-4][h-0]+
-                    b_l[w-3][h-0]+
-                    b_l[w-4][h+1]+
-                    b_l[w-3][h+1]+
-                    b_l[w-4][h+2]+
-                    b_l[w-3][h+2]+
 
-                    b_l[w-2][h-2]+
-                    b_l[w-1][h-2]+
-                    b_l[w-0][h-2]+
-                    b_l[w+1][h-2]+
-                    b_l[w+2][h-2]+
+                    if h==0:
+                        temp.append(0)
 
-                    b_l[w+4][h-2]+
-                    b_l[w+3][h-2]+
-                    b_l[w+4][h-1]+
-                    b_l[w+3][h-1]+
-                    b_l[w+4][h-0]+
-                    b_l[w+3][h-0]+
-                    b_l[w+4][h+1]+
-                    b_l[w+3][h+1]+
-                    b_l[w+4][h+2]+
-                    b_l[w+3][h+2]+
+                    elif h==1:
+                        temp.append(0)
 
-                    b_l[w-2][h+2]+
-                    b_l[w-1][h+2]+
-                    b_l[w-0][h+2]+
-                    b_l[w+1][h+2]+
-                    b_l[w+2][h+2])/30
+                    elif (1<h<38):
+                        if w <= 3: 
+                            temp.append(0)
+                        elif (3< w <137):
+                            ### Starting Peak Detection. Creation of 9x5 sliding window. 
+                            th_motion = (
+                            b_l[w-4][h-2]+
+                            b_l[w-3][h-2]+
+                            b_l[w-4][h-1]+
+                            b_l[w-3][h-1]+
+                            b_l[w-4][h-0]+
+                            b_l[w-3][h-0]+
+                            b_l[w-4][h+1]+
+                            b_l[w-3][h+1]+
+                            b_l[w-4][h+2]+
+                            b_l[w-3][h+2]+
 
-                    #print("b_l["    ,w,   "]["   ,h,   "] is ",
-                    #      np.round(b_l[w][h],6), " \t 1.5*noise threshold is ", np.round(1.5*th_motion,6))
+                            b_l[w-2][h-2]+
+                            b_l[w-1][h-2]+
+                            b_l[w-0][h-2]+
+                            b_l[w+1][h-2]+
+                            b_l[w+2][h-2]+
 
-                    branch_file.write("b_l["  +  str(w)  +  "]["  +  str(h)  +  "] is "  +
-                        str(np.round(b_l[w][h],6))  +  " \t 1.5*noise threshold is "  +  str(np.round(1.5*th_motion,6))+"\n")
-                    if b_l[w][h]>=1.5*th_motion:
-                        branch_file.write("Yes human detected.\n")
-                    else:
-                        branch_file.write("Move to next.\n")
+                            b_l[w+4][h-2]+
+                            b_l[w+3][h-2]+
+                            b_l[w+4][h-1]+
+                            b_l[w+3][h-1]+
+                            b_l[w+4][h-0]+
+                            b_l[w+3][h-0]+
+                            b_l[w+4][h+1]+
+                            b_l[w+3][h+1]+
+                            b_l[w+4][h+2]+
+                            b_l[w+3][h+2]+
+
+                            b_l[w-2][h+2]+
+                            b_l[w-1][h+2]+
+                            b_l[w-0][h+2]+
+                            b_l[w+1][h+2]+
+                            b_l[w+2][h+2])/30
+
+                            #print("b_l["    ,w,   "]["   ,h,   "] is ",
+                            #      np.round(b_l[w][h],6), " \t 1.5*noise threshold is ", np.round(1.5*th_motion,6))
+
+                            branch_file.write("b_l["  +  str(w)  +  "]["  +  str(h)  +  "] is "  +
+                                str(np.round(b_l[w][h],6))  +  " \t 1.5*noise threshold is "  +  str(np.round(1.5*th_motion,6))+"\n")
+                            if b_l[w][h]>=1.5*th_motion:
+                                branch_file.write("Yes human detected.\n")
+                                temp.append(1)
+                            else:
+                                branch_file.write("Move to next.\n")
+                                temp.append(0)
+                        else: #w gt or equal to 137
+                            temp.append(0)
+
+                    elif h==38:
+                        temp.append(0)
+
+                    elif h==39:
+                        temp.append(0)
         
     update_logs091023(low, high, fd, "./data/logs"+DDMM+"23.txt")
-    A="XYZ"
-    return A
+    
+    return temp
 
 def image_show(image,caption):
     col1, col2, col3 = st.columns(3)
@@ -122,7 +146,7 @@ def get_data() -> pd.DataFrame:
 #df = get_data()
 df = pd.read_csv(dataset_url, header=None)
 
-DDMM = "1310"  ### Update Correct Today's Date ###
+DDMM = "1510"  ### Update Correct Today's Date ###
 TP01 = "Program Loaded"
 TP02 = "Initialisaton of Pandas DataFrame completed."
 TP03 = "Demo Code Starts Here"
@@ -252,7 +276,7 @@ s = (141,40); b_l=np.zeros(s)
 s = (10); tem=np.zeros(s)
 s = (40); longobsvtem=np.zeros(s)
 c = 1.2 #page 70:10
-cnt = 0
+cnt = 71
 
 #Update fastdetected database, How to use:
 #Mark the binary outcome of fast movement >Take the 'low' indices > Put
@@ -302,7 +326,16 @@ while(cnt<np.floor(len(df_141complex[0])/40)):
     
     #Continued, so if FFT is useable, find peak amplitude
 
-    peak_detected(b_l, low, high, fastdetected)
+    flags_if = peak_detected(b_l, low, high, fastdetected)
+    for i in range(len(flags_if)):
+        if(i==0):
+            print(flags_if[i],end="")
+        else:
+            if i%141 > 0:
+                print(flags_if[i],end="")
+            else:
+                print(flags_if[i])
+    print("\n\n")
     print("Done Selecting Peaks, Logs Available. ")
 
 ################################################################################################################################################
