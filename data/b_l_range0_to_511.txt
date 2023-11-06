@@ -1,0 +1,3060 @@
+b_l[4][2] is 0.021498 	 1.5*noise threshold is 31.094284
+Move to next.
+b_l[13][2] is 0.024928 	 1.5*noise threshold is 20.738699
+Move to next.
+b_l[22][2] is 0.06548 	 1.5*noise threshold is 4.742295
+Move to next.
+b_l[31][2] is 0.147139 	 1.5*noise threshold is 5.13703
+Move to next.
+b_l[40][2] is 0.219379 	 1.5*noise threshold is 6.454686
+Move to next.
+b_l[49][2] is 0.234631 	 1.5*noise threshold is 5.732336
+Move to next.
+b_l[58][2] is 0.207253 	 1.5*noise threshold is 5.032461
+Move to next.
+b_l[67][2] is 0.17697 	 1.5*noise threshold is 4.165311
+Move to next.
+b_l[76][2] is 0.153238 	 1.5*noise threshold is 3.300329
+Move to next.
+b_l[85][2] is 0.128806 	 1.5*noise threshold is 2.657918
+Move to next.
+b_l[94][2] is 0.124505 	 1.5*noise threshold is 2.293614
+Move to next.
+b_l[103][2] is 0.120171 	 1.5*noise threshold is 2.235987
+Move to next.
+b_l[112][2] is 0.099818 	 1.5*noise threshold is 1.714059
+Move to next.
+b_l[121][2] is 0.096069 	 1.5*noise threshold is 1.333051
+Move to next.
+b_l[130][2] is 0.083274 	 1.5*noise threshold is 4.97905
+Move to next.
+b_l[4][7] is 0.007189 	 1.5*noise threshold is 0.015239
+Move to next.
+b_l[13][7] is 0.018277 	 1.5*noise threshold is 0.043877
+Move to next.
+b_l[22][7] is 0.072082 	 1.5*noise threshold is 0.154864
+Move to next.
+b_l[31][7] is 0.133368 	 1.5*noise threshold is 0.290073
+Move to next.
+b_l[40][7] is 0.127259 	 1.5*noise threshold is 0.294631
+Move to next.
+b_l[49][7] is 0.087855 	 1.5*noise threshold is 0.167618
+Move to next.
+b_l[58][7] is 0.09575 	 1.5*noise threshold is 0.115746
+Move to next.
+b_l[67][7] is 0.062661 	 1.5*noise threshold is 0.148703
+Move to next.
+b_l[76][7] is 0.038677 	 1.5*noise threshold is 0.153215
+Move to next.
+b_l[85][7] is 0.076455 	 1.5*noise threshold is 0.158231
+Move to next.
+b_l[94][7] is 0.09765 	 1.5*noise threshold is 0.145162
+Move to next.
+b_l[103][7] is 0.085923 	 1.5*noise threshold is 0.113268
+Move to next.
+b_l[112][7] is 0.056026 	 1.5*noise threshold is 0.087077
+Move to next.
+b_l[121][7] is 0.022743 	 1.5*noise threshold is 0.061391
+Move to next.
+b_l[130][7] is 0.000806 	 1.5*noise threshold is 0.046217
+Move to next.
+b_l[4][12] is 0.004997 	 1.5*noise threshold is 0.00739
+Move to next.
+b_l[13][12] is 0.002755 	 1.5*noise threshold is 0.015266
+Move to next.
+b_l[22][12] is 0.020067 	 1.5*noise threshold is 0.053476
+Move to next.
+b_l[31][12] is 0.053501 	 1.5*noise threshold is 0.107613
+Move to next.
+b_l[40][12] is 0.096878 	 1.5*noise threshold is 0.137137
+Move to next.
+b_l[49][12] is 0.119163 	 1.5*noise threshold is 0.122582
+Move to next.
+b_l[58][12] is 0.086847 	 1.5*noise threshold is 0.083428
+Yes human detected.
+b_l[67][12] is 0.029206 	 1.5*noise threshold is 0.065804
+Move to next.
+b_l[76][12] is 0.06756 	 1.5*noise threshold is 0.09021
+Move to next.
+b_l[85][12] is 0.072274 	 1.5*noise threshold is 0.109735
+Move to next.
+b_l[94][12] is 0.045283 	 1.5*noise threshold is 0.108998
+Move to next.
+b_l[103][12] is 0.021973 	 1.5*noise threshold is 0.088952
+Move to next.
+b_l[112][12] is 0.008165 	 1.5*noise threshold is 0.057895
+Move to next.
+b_l[121][12] is 0.011911 	 1.5*noise threshold is 0.039318
+Move to next.
+b_l[130][12] is 0.023661 	 1.5*noise threshold is 0.034201
+Move to next.
+b_l[4][17] is 0.004183 	 1.5*noise threshold is 0.008832
+Move to next.
+b_l[13][17] is 0.008918 	 1.5*noise threshold is 0.014245
+Move to next.
+b_l[22][17] is 0.0446 	 1.5*noise threshold is 0.042296
+Yes human detected.
+b_l[31][17] is 0.087803 	 1.5*noise threshold is 0.072309
+Yes human detected.
+b_l[40][17] is 0.095556 	 1.5*noise threshold is 0.076326
+Yes human detected.
+b_l[49][17] is 0.077349 	 1.5*noise threshold is 0.082622
+Move to next.
+b_l[58][17] is 0.100223 	 1.5*noise threshold is 0.082576
+Yes human detected.
+b_l[67][17] is 0.093131 	 1.5*noise threshold is 0.065396
+Yes human detected.
+b_l[76][17] is 0.059889 	 1.5*noise threshold is 0.060635
+Move to next.
+b_l[85][17] is 0.079195 	 1.5*noise threshold is 0.080173
+Move to next.
+b_l[94][17] is 0.088116 	 1.5*noise threshold is 0.081886
+Yes human detected.
+b_l[103][17] is 0.067699 	 1.5*noise threshold is 0.061088
+Yes human detected.
+b_l[112][17] is 0.035933 	 1.5*noise threshold is 0.045864
+Move to next.
+b_l[121][17] is 0.009351 	 1.5*noise threshold is 0.036391
+Move to next.
+b_l[130][17] is 0.005349 	 1.5*noise threshold is 0.025829
+Move to next.
+b_l[4][22] is 0.008398 	 1.5*noise threshold is 0.007833
+Yes human detected.
+b_l[13][22] is 0.000398 	 1.5*noise threshold is 0.011206
+Move to next.
+b_l[22][22] is 0.022949 	 1.5*noise threshold is 0.031768
+Move to next.
+b_l[31][22] is 0.050566 	 1.5*noise threshold is 0.055946
+Move to next.
+b_l[40][22] is 0.054675 	 1.5*noise threshold is 0.060012
+Move to next.
+b_l[49][22] is 0.028158 	 1.5*noise threshold is 0.057381
+Move to next.
+b_l[58][22] is 0.008849 	 1.5*noise threshold is 0.054362
+Move to next.
+b_l[67][22] is 0.023133 	 1.5*noise threshold is 0.042083
+Move to next.
+b_l[76][22] is 0.024842 	 1.5*noise threshold is 0.043131
+Move to next.
+b_l[85][22] is 0.024831 	 1.5*noise threshold is 0.041807
+Move to next.
+b_l[94][22] is 0.02475 	 1.5*noise threshold is 0.04473
+Move to next.
+b_l[103][22] is 0.025514 	 1.5*noise threshold is 0.045491
+Move to next.
+b_l[112][22] is 0.029779 	 1.5*noise threshold is 0.042058
+Move to next.
+b_l[121][22] is 0.026215 	 1.5*noise threshold is 0.031749
+Move to next.
+b_l[130][22] is 0.013188 	 1.5*noise threshold is 0.016689
+Move to next.
+b_l[4][27] is 0.009692 	 1.5*noise threshold is 0.011901
+Move to next.
+b_l[13][27] is 0.007668 	 1.5*noise threshold is 0.011382
+Move to next.
+b_l[22][27] is 0.010177 	 1.5*noise threshold is 0.021572
+Move to next.
+b_l[31][27] is 0.021849 	 1.5*noise threshold is 0.040889
+Move to next.
+b_l[40][27] is 0.014893 	 1.5*noise threshold is 0.041424
+Move to next.
+b_l[49][27] is 0.007379 	 1.5*noise threshold is 0.030827
+Move to next.
+b_l[58][27] is 0.016239 	 1.5*noise threshold is 0.044813
+Move to next.
+b_l[67][27] is 0.0183 	 1.5*noise threshold is 0.043632
+Move to next.
+b_l[76][27] is 0.017926 	 1.5*noise threshold is 0.027134
+Move to next.
+b_l[85][27] is 0.013238 	 1.5*noise threshold is 0.024349
+Move to next.
+b_l[94][27] is 0.01888 	 1.5*noise threshold is 0.031013
+Move to next.
+b_l[103][27] is 0.016682 	 1.5*noise threshold is 0.026497
+Move to next.
+b_l[112][27] is 0.014121 	 1.5*noise threshold is 0.02128
+Move to next.
+b_l[121][27] is 0.015457 	 1.5*noise threshold is 0.019887
+Move to next.
+b_l[130][27] is 0.014659 	 1.5*noise threshold is 0.019306
+Move to next.
+b_l[4][32] is 0.003651 	 1.5*noise threshold is 0.010361
+Move to next.
+b_l[13][32] is 0.000233 	 1.5*noise threshold is 0.00825
+Move to next.
+b_l[22][32] is 0.003111 	 1.5*noise threshold is 0.01846
+Move to next.
+b_l[31][32] is 0.009954 	 1.5*noise threshold is 0.041202
+Move to next.
+b_l[40][32] is 0.024748 	 1.5*noise threshold is 0.047869
+Move to next.
+b_l[49][32] is 0.032831 	 1.5*noise threshold is 0.031913
+Yes human detected.
+b_l[58][32] is 0.026089 	 1.5*noise threshold is 0.034967
+Move to next.
+b_l[67][32] is 0.017826 	 1.5*noise threshold is 0.034364
+Move to next.
+b_l[76][32] is 0.028849 	 1.5*noise threshold is 0.027426
+Yes human detected.
+b_l[85][32] is 0.025474 	 1.5*noise threshold is 0.02631
+Move to next.
+b_l[94][32] is 0.008817 	 1.5*noise threshold is 0.022963
+Move to next.
+b_l[103][32] is 0.009904 	 1.5*noise threshold is 0.015709
+Move to next.
+b_l[112][32] is 0.009827 	 1.5*noise threshold is 0.011578
+Move to next.
+b_l[121][32] is 0.006682 	 1.5*noise threshold is 0.011686
+Move to next.
+b_l[130][32] is 0.004498 	 1.5*noise threshold is 0.016151
+Move to next.
+b_l[4][37] is 0.010418 	 1.5*noise threshold is 0.011772
+Move to next.
+b_l[13][37] is 0.008402 	 1.5*noise threshold is 0.011546
+Move to next.
+b_l[22][37] is 0.009882 	 1.5*noise threshold is 0.011988
+Move to next.
+b_l[31][37] is 0.012841 	 1.5*noise threshold is 0.013445
+Move to next.
+b_l[40][37] is 0.009849 	 1.5*noise threshold is 0.013399
+Move to next.
+b_l[49][37] is 0.008625 	 1.5*noise threshold is 0.015788
+Move to next.
+b_l[58][37] is 0.016632 	 1.5*noise threshold is 0.02204
+Move to next.
+b_l[67][37] is 0.020062 	 1.5*noise threshold is 0.025078
+Move to next.
+b_l[76][37] is 0.014637 	 1.5*noise threshold is 0.023251
+Move to next.
+b_l[85][37] is 0.007413 	 1.5*noise threshold is 0.022036
+Move to next.
+b_l[94][37] is 0.010928 	 1.5*noise threshold is 0.022418
+Move to next.
+b_l[103][37] is 0.011328 	 1.5*noise threshold is 0.017361
+Move to next.
+b_l[112][37] is 0.008777 	 1.5*noise threshold is 0.011982
+Move to next.
+b_l[121][37] is 0.006568 	 1.5*noise threshold is 0.013211
+Move to next.
+b_l[130][37] is 0.003522 	 1.5*noise threshold is 0.014615
+Move to next.
+b_l[4][42] is 0.006218 	 1.5*noise threshold is 0.006257
+Move to next.
+b_l[13][42] is 0.00567 	 1.5*noise threshold is 0.010146
+Move to next.
+b_l[22][42] is 0.009466 	 1.5*noise threshold is 0.021265
+Move to next.
+b_l[31][42] is 0.020704 	 1.5*noise threshold is 0.033184
+Move to next.
+b_l[40][42] is 0.017755 	 1.5*noise threshold is 0.034679
+Move to next.
+b_l[49][42] is 0.011859 	 1.5*noise threshold is 0.033477
+Move to next.
+b_l[58][42] is 0.021369 	 1.5*noise threshold is 0.033241
+Move to next.
+b_l[67][42] is 0.02078 	 1.5*noise threshold is 0.036915
+Move to next.
+b_l[76][42] is 0.024149 	 1.5*noise threshold is 0.039354
+Move to next.
+b_l[85][42] is 0.018156 	 1.5*noise threshold is 0.029276
+Move to next.
+b_l[94][42] is 0.004548 	 1.5*noise threshold is 0.013532
+Move to next.
+b_l[103][42] is 0.012404 	 1.5*noise threshold is 0.017278
+Move to next.
+b_l[112][42] is 0.018894 	 1.5*noise threshold is 0.025507
+Move to next.
+b_l[121][42] is 0.018878 	 1.5*noise threshold is 0.025415
+Move to next.
+b_l[130][42] is 0.014965 	 1.5*noise threshold is 0.02021
+Move to next.
+b_l[4][47] is 0.003129 	 1.5*noise threshold is 0.012691
+Move to next.
+b_l[13][47] is 0.004211 	 1.5*noise threshold is 0.010739
+Move to next.
+b_l[22][47] is 0.007913 	 1.5*noise threshold is 0.009734
+Move to next.
+b_l[31][47] is 0.014861 	 1.5*noise threshold is 0.016542
+Move to next.
+b_l[40][47] is 0.015866 	 1.5*noise threshold is 0.023373
+Move to next.
+b_l[49][47] is 0.013097 	 1.5*noise threshold is 0.021797
+Move to next.
+b_l[58][47] is 0.019918 	 1.5*noise threshold is 0.01664
+Yes human detected.
+b_l[67][47] is 0.019281 	 1.5*noise threshold is 0.026169
+Move to next.
+b_l[76][47] is 0.007489 	 1.5*noise threshold is 0.030093
+Move to next.
+b_l[85][47] is 0.016429 	 1.5*noise threshold is 0.02512
+Move to next.
+b_l[94][47] is 0.026864 	 1.5*noise threshold is 0.016643
+Yes human detected.
+b_l[103][47] is 0.029998 	 1.5*noise threshold is 0.018259
+Yes human detected.
+b_l[112][47] is 0.024995 	 1.5*noise threshold is 0.018135
+Yes human detected.
+b_l[121][47] is 0.012811 	 1.5*noise threshold is 0.013313
+Move to next.
+b_l[130][47] is 0.001393 	 1.5*noise threshold is 0.009073
+Move to next.
+b_l[4][52] is 0.009071 	 1.5*noise threshold is 0.00933
+Move to next.
+b_l[13][52] is 0.007027 	 1.5*noise threshold is 0.007363
+Move to next.
+b_l[22][52] is 0.012389 	 1.5*noise threshold is 0.014075
+Move to next.
+b_l[31][52] is 0.028316 	 1.5*noise threshold is 0.027799
+Yes human detected.
+b_l[40][52] is 0.0324 	 1.5*noise threshold is 0.030258
+Yes human detected.
+b_l[49][52] is 0.020686 	 1.5*noise threshold is 0.028819
+Move to next.
+b_l[58][52] is 0.013182 	 1.5*noise threshold is 0.024598
+Move to next.
+b_l[67][52] is 0.002533 	 1.5*noise threshold is 0.015079
+Move to next.
+b_l[76][52] is 0.011091 	 1.5*noise threshold is 0.018077
+Move to next.
+b_l[85][52] is 0.014589 	 1.5*noise threshold is 0.022857
+Move to next.
+b_l[94][52] is 0.009795 	 1.5*noise threshold is 0.021653
+Move to next.
+b_l[103][52] is 0.006147 	 1.5*noise threshold is 0.019849
+Move to next.
+b_l[112][52] is 0.007925 	 1.5*noise threshold is 0.018415
+Move to next.
+b_l[121][52] is 0.01138 	 1.5*noise threshold is 0.020528
+Move to next.
+b_l[130][52] is 0.013033 	 1.5*noise threshold is 0.019064
+Move to next.
+b_l[4][57] is 0.004325 	 1.5*noise threshold is 0.005325
+Move to next.
+b_l[13][57] is 0.003299 	 1.5*noise threshold is 0.006307
+Move to next.
+b_l[22][57] is 0.012146 	 1.5*noise threshold is 0.013486
+Move to next.
+b_l[31][57] is 0.026812 	 1.5*noise threshold is 0.024312
+Yes human detected.
+b_l[40][57] is 0.025842 	 1.5*noise threshold is 0.026326
+Move to next.
+b_l[49][57] is 0.009305 	 1.5*noise threshold is 0.018464
+Move to next.
+b_l[58][57] is 0.004851 	 1.5*noise threshold is 0.021235
+Move to next.
+b_l[67][57] is 0.00734 	 1.5*noise threshold is 0.02107
+Move to next.
+b_l[76][57] is 0.007493 	 1.5*noise threshold is 0.017006
+Move to next.
+b_l[85][57] is 0.008448 	 1.5*noise threshold is 0.015652
+Move to next.
+b_l[94][57] is 0.008495 	 1.5*noise threshold is 0.013686
+Move to next.
+b_l[103][57] is 0.008382 	 1.5*noise threshold is 0.013693
+Move to next.
+b_l[112][57] is 0.007401 	 1.5*noise threshold is 0.014968
+Move to next.
+b_l[121][57] is 0.005073 	 1.5*noise threshold is 0.013566
+Move to next.
+b_l[130][57] is 0.00291 	 1.5*noise threshold is 0.007715
+Move to next.
+b_l[4][62] is 0.005154 	 1.5*noise threshold is 0.006469
+Move to next.
+b_l[13][62] is 0.004105 	 1.5*noise threshold is 0.006729
+Move to next.
+b_l[22][62] is 0.007666 	 1.5*noise threshold is 0.010486
+Move to next.
+b_l[31][62] is 0.01628 	 1.5*noise threshold is 0.023127
+Move to next.
+b_l[40][62] is 0.015476 	 1.5*noise threshold is 0.028949
+Move to next.
+b_l[49][62] is 0.012338 	 1.5*noise threshold is 0.024751
+Move to next.
+b_l[58][62] is 0.015146 	 1.5*noise threshold is 0.021147
+Move to next.
+b_l[67][62] is 0.009035 	 1.5*noise threshold is 0.014571
+Move to next.
+b_l[76][62] is 0.005329 	 1.5*noise threshold is 0.012567
+Move to next.
+b_l[85][62] is 0.002573 	 1.5*noise threshold is 0.015214
+Move to next.
+b_l[94][62] is 0.009193 	 1.5*noise threshold is 0.020499
+Move to next.
+b_l[103][62] is 0.011339 	 1.5*noise threshold is 0.020863
+Move to next.
+b_l[112][62] is 0.011357 	 1.5*noise threshold is 0.013891
+Move to next.
+b_l[121][62] is 0.009454 	 1.5*noise threshold is 0.009529
+Move to next.
+b_l[130][62] is 0.007012 	 1.5*noise threshold is 0.008271
+Move to next.
+b_l[4][67] is 0.007903 	 1.5*noise threshold is 0.010822
+Move to next.
+b_l[13][67] is 0.008422 	 1.5*noise threshold is 0.012689
+Move to next.
+b_l[22][67] is 0.010004 	 1.5*noise threshold is 0.017546
+Move to next.
+b_l[31][67] is 0.008831 	 1.5*noise threshold is 0.026342
+Move to next.
+b_l[40][67] is 0.009397 	 1.5*noise threshold is 0.029886
+Move to next.
+b_l[49][67] is 0.010991 	 1.5*noise threshold is 0.024545
+Move to next.
+b_l[58][67] is 0.008476 	 1.5*noise threshold is 0.020599
+Move to next.
+b_l[67][67] is 0.001129 	 1.5*noise threshold is 0.020519
+Move to next.
+b_l[76][67] is 0.009957 	 1.5*noise threshold is 0.027245
+Move to next.
+b_l[85][67] is 0.018214 	 1.5*noise threshold is 0.036207
+Move to next.
+b_l[94][67] is 0.019445 	 1.5*noise threshold is 0.034055
+Move to next.
+b_l[103][67] is 0.010318 	 1.5*noise threshold is 0.020805
+Move to next.
+b_l[112][67] is 0.003866 	 1.5*noise threshold is 0.015833
+Move to next.
+b_l[121][67] is 0.011536 	 1.5*noise threshold is 0.014962
+Move to next.
+b_l[130][67] is 0.010029 	 1.5*noise threshold is 0.010194
+Move to next.
+b_l[4][72] is 0.009761 	 1.5*noise threshold is 0.006738
+Yes human detected.
+b_l[13][72] is 0.009688 	 1.5*noise threshold is 0.008196
+Yes human detected.
+b_l[22][72] is 0.006794 	 1.5*noise threshold is 0.014649
+Move to next.
+b_l[31][72] is 0.00415 	 1.5*noise threshold is 0.023135
+Move to next.
+b_l[40][72] is 0.003184 	 1.5*noise threshold is 0.025205
+Move to next.
+b_l[49][72] is 0.007325 	 1.5*noise threshold is 0.01718
+Move to next.
+b_l[58][72] is 0.010794 	 1.5*noise threshold is 0.009422
+Yes human detected.
+b_l[67][72] is 0.009029 	 1.5*noise threshold is 0.015007
+Move to next.
+b_l[76][72] is 0.002016 	 1.5*noise threshold is 0.019025
+Move to next.
+b_l[85][72] is 0.007295 	 1.5*noise threshold is 0.021136
+Move to next.
+b_l[94][72] is 0.008247 	 1.5*noise threshold is 0.021326
+Move to next.
+b_l[103][72] is 0.004258 	 1.5*noise threshold is 0.017236
+Move to next.
+b_l[112][72] is 0.002029 	 1.5*noise threshold is 0.012107
+Move to next.
+b_l[121][72] is 0.006577 	 1.5*noise threshold is 0.0114
+Move to next.
+b_l[130][72] is 0.008126 	 1.5*noise threshold is 0.009079
+Move to next.
+b_l[4][77] is 0.005845 	 1.5*noise threshold is 0.008434
+Move to next.
+b_l[13][77] is 0.005082 	 1.5*noise threshold is 0.008826
+Move to next.
+b_l[22][77] is 0.014712 	 1.5*noise threshold is 0.016939
+Move to next.
+b_l[31][77] is 0.029758 	 1.5*noise threshold is 0.038061
+Move to next.
+b_l[40][77] is 0.031371 	 1.5*noise threshold is 0.045115
+Move to next.
+b_l[49][77] is 0.016975 	 1.5*noise threshold is 0.0298
+Move to next.
+b_l[58][77] is 0.002069 	 1.5*noise threshold is 0.016271
+Move to next.
+b_l[67][77] is 0.005094 	 1.5*noise threshold is 0.014297
+Move to next.
+b_l[76][77] is 0.008324 	 1.5*noise threshold is 0.01147
+Move to next.
+b_l[85][77] is 0.012618 	 1.5*noise threshold is 0.015925
+Move to next.
+b_l[94][77] is 0.013952 	 1.5*noise threshold is 0.020957
+Move to next.
+b_l[103][77] is 0.012538 	 1.5*noise threshold is 0.021909
+Move to next.
+b_l[112][77] is 0.009662 	 1.5*noise threshold is 0.021305
+Move to next.
+b_l[121][77] is 0.007514 	 1.5*noise threshold is 0.019852
+Move to next.
+b_l[130][77] is 0.005863 	 1.5*noise threshold is 0.014068
+Move to next.
+b_l[4][82] is 0.013826 	 1.5*noise threshold is 0.007381
+Yes human detected.
+b_l[13][82] is 0.009894 	 1.5*noise threshold is 0.007833
+Yes human detected.
+b_l[22][82] is 0.006949 	 1.5*noise threshold is 0.015941
+Move to next.
+b_l[31][82] is 0.025246 	 1.5*noise threshold is 0.030148
+Move to next.
+b_l[40][82] is 0.031173 	 1.5*noise threshold is 0.033575
+Move to next.
+b_l[49][82] is 0.019573 	 1.5*noise threshold is 0.023784
+Move to next.
+b_l[58][82] is 0.008528 	 1.5*noise threshold is 0.02001
+Move to next.
+b_l[67][82] is 0.014998 	 1.5*noise threshold is 0.028027
+Move to next.
+b_l[76][82] is 0.012873 	 1.5*noise threshold is 0.02276
+Move to next.
+b_l[85][82] is 0.007763 	 1.5*noise threshold is 0.009994
+Move to next.
+b_l[94][82] is 0.007388 	 1.5*noise threshold is 0.01534
+Move to next.
+b_l[103][82] is 0.007064 	 1.5*noise threshold is 0.021279
+Move to next.
+b_l[112][82] is 0.008764 	 1.5*noise threshold is 0.02079
+Move to next.
+b_l[121][82] is 0.008857 	 1.5*noise threshold is 0.017215
+Move to next.
+b_l[130][82] is 0.006134 	 1.5*noise threshold is 0.012651
+Move to next.
+b_l[4][87] is 0.003694 	 1.5*noise threshold is 0.007803
+Move to next.
+b_l[13][87] is 0.005096 	 1.5*noise threshold is 0.008062
+Move to next.
+b_l[22][87] is 0.010039 	 1.5*noise threshold is 0.012374
+Move to next.
+b_l[31][87] is 0.013371 	 1.5*noise threshold is 0.017324
+Move to next.
+b_l[40][87] is 0.009756 	 1.5*noise threshold is 0.016176
+Move to next.
+b_l[49][87] is 0.009224 	 1.5*noise threshold is 0.01605
+Move to next.
+b_l[58][87] is 0.008283 	 1.5*noise threshold is 0.013513
+Move to next.
+b_l[67][87] is 0.00362 	 1.5*noise threshold is 0.012791
+Move to next.
+b_l[76][87] is 0.008223 	 1.5*noise threshold is 0.015396
+Move to next.
+b_l[85][87] is 0.012116 	 1.5*noise threshold is 0.013344
+Move to next.
+b_l[94][87] is 0.012722 	 1.5*noise threshold is 0.009159
+Yes human detected.
+b_l[103][87] is 0.011356 	 1.5*noise threshold is 0.008802
+Yes human detected.
+b_l[112][87] is 0.006311 	 1.5*noise threshold is 0.008329
+Move to next.
+b_l[121][87] is 0.002411 	 1.5*noise threshold is 0.007032
+Move to next.
+b_l[130][87] is 0.005089 	 1.5*noise threshold is 0.005625
+Move to next.
+b_l[4][92] is 0.003969 	 1.5*noise threshold is 0.003643
+Yes human detected.
+b_l[13][92] is 0.0059 	 1.5*noise threshold is 0.006531
+Move to next.
+b_l[22][92] is 0.009238 	 1.5*noise threshold is 0.010898
+Move to next.
+b_l[31][92] is 0.00843 	 1.5*noise threshold is 0.015838
+Move to next.
+b_l[40][92] is 0.009416 	 1.5*noise threshold is 0.019481
+Move to next.
+b_l[49][92] is 0.00861 	 1.5*noise threshold is 0.019527
+Move to next.
+b_l[58][92] is 0.005374 	 1.5*noise threshold is 0.018139
+Move to next.
+b_l[67][92] is 0.003658 	 1.5*noise threshold is 0.01757
+Move to next.
+b_l[76][92] is 0.00855 	 1.5*noise threshold is 0.020945
+Move to next.
+b_l[85][92] is 0.011319 	 1.5*noise threshold is 0.020169
+Move to next.
+b_l[94][92] is 0.011054 	 1.5*noise threshold is 0.015649
+Move to next.
+b_l[103][92] is 0.009786 	 1.5*noise threshold is 0.015303
+Move to next.
+b_l[112][92] is 0.005345 	 1.5*noise threshold is 0.010708
+Move to next.
+b_l[121][92] is 0.00168 	 1.5*noise threshold is 0.005209
+Move to next.
+b_l[130][92] is 0.001448 	 1.5*noise threshold is 0.005121
+Move to next.
+b_l[4][97] is 0.005069 	 1.5*noise threshold is 0.008603
+Move to next.
+b_l[13][97] is 0.00376 	 1.5*noise threshold is 0.007163
+Move to next.
+b_l[22][97] is 0.00443 	 1.5*noise threshold is 0.005991
+Move to next.
+b_l[31][97] is 0.004397 	 1.5*noise threshold is 0.008079
+Move to next.
+b_l[40][97] is 0.001369 	 1.5*noise threshold is 0.012797
+Move to next.
+b_l[49][97] is 0.00468 	 1.5*noise threshold is 0.014639
+Move to next.
+b_l[58][97] is 0.011091 	 1.5*noise threshold is 0.011975
+Move to next.
+b_l[67][97] is 0.012179 	 1.5*noise threshold is 0.010565
+Yes human detected.
+b_l[76][97] is 0.005604 	 1.5*noise threshold is 0.015129
+Move to next.
+b_l[85][97] is 0.006804 	 1.5*noise threshold is 0.0183
+Move to next.
+b_l[94][97] is 0.008583 	 1.5*noise threshold is 0.017249
+Move to next.
+b_l[103][97] is 0.005787 	 1.5*noise threshold is 0.01464
+Move to next.
+b_l[112][97] is 0.008192 	 1.5*noise threshold is 0.011994
+Move to next.
+b_l[121][97] is 0.00927 	 1.5*noise threshold is 0.008369
+Yes human detected.
+b_l[130][97] is 0.005725 	 1.5*noise threshold is 0.008365
+Move to next.
+b_l[4][102] is 0.00308 	 1.5*noise threshold is 0.00792
+Move to next.
+b_l[13][102] is 0.003053 	 1.5*noise threshold is 0.007361
+Move to next.
+b_l[22][102] is 0.008721 	 1.5*noise threshold is 0.010431
+Move to next.
+b_l[31][102] is 0.012517 	 1.5*noise threshold is 0.015799
+Move to next.
+b_l[40][102] is 0.00754 	 1.5*noise threshold is 0.015019
+Move to next.
+b_l[49][102] is 0.003871 	 1.5*noise threshold is 0.011564
+Move to next.
+b_l[58][102] is 0.009091 	 1.5*noise threshold is 0.01531
+Move to next.
+b_l[67][102] is 0.008349 	 1.5*noise threshold is 0.019224
+Move to next.
+b_l[76][102] is 0.009764 	 1.5*noise threshold is 0.020052
+Move to next.
+b_l[85][102] is 0.005762 	 1.5*noise threshold is 0.015986
+Move to next.
+b_l[94][102] is 0.011632 	 1.5*noise threshold is 0.015881
+Move to next.
+b_l[103][102] is 0.01379 	 1.5*noise threshold is 0.014162
+Move to next.
+b_l[112][102] is 0.010496 	 1.5*noise threshold is 0.009912
+Yes human detected.
+b_l[121][102] is 0.007126 	 1.5*noise threshold is 0.008168
+Move to next.
+b_l[130][102] is 0.004286 	 1.5*noise threshold is 0.007793
+Move to next.
+b_l[4][107] is 0.003888 	 1.5*noise threshold is 0.006114
+Move to next.
+b_l[13][107] is 0.002884 	 1.5*noise threshold is 0.006161
+Move to next.
+b_l[22][107] is 0.01097 	 1.5*noise threshold is 0.009947
+Yes human detected.
+b_l[31][107] is 0.014981 	 1.5*noise threshold is 0.019082
+Move to next.
+b_l[40][107] is 0.01108 	 1.5*noise threshold is 0.020957
+Move to next.
+b_l[49][107] is 0.006069 	 1.5*noise threshold is 0.012672
+Move to next.
+b_l[58][107] is 0.009503 	 1.5*noise threshold is 0.008949
+Yes human detected.
+b_l[67][107] is 0.011036 	 1.5*noise threshold is 0.010241
+Yes human detected.
+b_l[76][107] is 0.011307 	 1.5*noise threshold is 0.009249
+Yes human detected.
+b_l[85][107] is 0.009899 	 1.5*noise threshold is 0.01203
+Move to next.
+b_l[94][107] is 0.005602 	 1.5*noise threshold is 0.011685
+Move to next.
+b_l[103][107] is 0.002592 	 1.5*noise threshold is 0.009833
+Move to next.
+b_l[112][107] is 0.003431 	 1.5*noise threshold is 0.007831
+Move to next.
+b_l[121][107] is 0.004807 	 1.5*noise threshold is 0.006199
+Move to next.
+b_l[130][107] is 0.00329 	 1.5*noise threshold is 0.004964
+Move to next.
+b_l[4][112] is 0.008582 	 1.5*noise threshold is 0.007271
+Yes human detected.
+b_l[13][112] is 0.012084 	 1.5*noise threshold is 0.010469
+Yes human detected.
+b_l[22][112] is 0.014339 	 1.5*noise threshold is 0.014352
+Move to next.
+b_l[31][112] is 0.012005 	 1.5*noise threshold is 0.023283
+Move to next.
+b_l[40][112] is 0.007029 	 1.5*noise threshold is 0.02489
+Move to next.
+b_l[49][112] is 0.004301 	 1.5*noise threshold is 0.015063
+Move to next.
+b_l[58][112] is 0.012638 	 1.5*noise threshold is 0.012517
+Yes human detected.
+b_l[67][112] is 0.018779 	 1.5*noise threshold is 0.021645
+Move to next.
+b_l[76][112] is 0.019661 	 1.5*noise threshold is 0.024121
+Move to next.
+b_l[85][112] is 0.018295 	 1.5*noise threshold is 0.023237
+Move to next.
+b_l[94][112] is 0.012988 	 1.5*noise threshold is 0.019533
+Move to next.
+b_l[103][112] is 0.004104 	 1.5*noise threshold is 0.012679
+Move to next.
+b_l[112][112] is 0.004753 	 1.5*noise threshold is 0.008753
+Move to next.
+b_l[121][112] is 0.008037 	 1.5*noise threshold is 0.007362
+Yes human detected.
+b_l[130][112] is 0.007788 	 1.5*noise threshold is 0.005061
+Yes human detected.
+b_l[4][117] is 0.012041 	 1.5*noise threshold is 0.008207
+Yes human detected.
+b_l[13][117] is 0.011587 	 1.5*noise threshold is 0.006773
+Yes human detected.
+b_l[22][117] is 0.008193 	 1.5*noise threshold is 0.01278
+Move to next.
+b_l[31][117] is 0.01197 	 1.5*noise threshold is 0.025071
+Move to next.
+b_l[40][117] is 0.016333 	 1.5*noise threshold is 0.029987
+Move to next.
+b_l[49][117] is 0.011097 	 1.5*noise threshold is 0.018752
+Move to next.
+b_l[58][117] is 0.005244 	 1.5*noise threshold is 0.010181
+Move to next.
+b_l[67][117] is 0.011525 	 1.5*noise threshold is 0.017497
+Move to next.
+b_l[76][117] is 0.014411 	 1.5*noise threshold is 0.019584
+Move to next.
+b_l[85][117] is 0.015491 	 1.5*noise threshold is 0.018642
+Move to next.
+b_l[94][117] is 0.0159 	 1.5*noise threshold is 0.017705
+Move to next.
+b_l[103][117] is 0.012419 	 1.5*noise threshold is 0.016226
+Move to next.
+b_l[112][117] is 0.004917 	 1.5*noise threshold is 0.01279
+Move to next.
+b_l[121][117] is 0.006154 	 1.5*noise threshold is 0.009248
+Move to next.
+b_l[130][117] is 0.008372 	 1.5*noise threshold is 0.006864
+Yes human detected.
+b_l[4][122] is 0.004764 	 1.5*noise threshold is 0.00907
+Move to next.
+b_l[13][122] is 0.004003 	 1.5*noise threshold is 0.011828
+Move to next.
+b_l[22][122] is 0.005143 	 1.5*noise threshold is 0.021936
+Move to next.
+b_l[31][122] is 0.01538 	 1.5*noise threshold is 0.038706
+Move to next.
+b_l[40][122] is 0.022211 	 1.5*noise threshold is 0.041484
+Move to next.
+b_l[49][122] is 0.018311 	 1.5*noise threshold is 0.027625
+Move to next.
+b_l[58][122] is 0.006426 	 1.5*noise threshold is 0.022148
+Move to next.
+b_l[67][122] is 0.007914 	 1.5*noise threshold is 0.02685
+Move to next.
+b_l[76][122] is 0.010394 	 1.5*noise threshold is 0.027174
+Move to next.
+b_l[85][122] is 0.006134 	 1.5*noise threshold is 0.024345
+Move to next.
+b_l[94][122] is 0.002114 	 1.5*noise threshold is 0.020111
+Move to next.
+b_l[103][122] is 0.004656 	 1.5*noise threshold is 0.018019
+Move to next.
+b_l[112][122] is 0.007892 	 1.5*noise threshold is 0.01595
+Move to next.
+b_l[121][122] is 0.008898 	 1.5*noise threshold is 0.011374
+Move to next.
+b_l[130][122] is 0.007349 	 1.5*noise threshold is 0.006297
+Yes human detected.
+b_l[4][127] is 0.001921 	 1.5*noise threshold is 0.009562
+Move to next.
+b_l[13][127] is 0.006417 	 1.5*noise threshold is 0.012667
+Move to next.
+b_l[22][127] is 0.01435 	 1.5*noise threshold is 0.019679
+Move to next.
+b_l[31][127] is 0.01977 	 1.5*noise threshold is 0.029391
+Move to next.
+b_l[40][127] is 0.016326 	 1.5*noise threshold is 0.030231
+Move to next.
+b_l[49][127] is 0.004619 	 1.5*noise threshold is 0.019615
+Move to next.
+b_l[58][127] is 0.008374 	 1.5*noise threshold is 0.015683
+Move to next.
+b_l[67][127] is 0.010774 	 1.5*noise threshold is 0.01699
+Move to next.
+b_l[76][127] is 0.010468 	 1.5*noise threshold is 0.015653
+Move to next.
+b_l[85][127] is 0.009891 	 1.5*noise threshold is 0.013934
+Move to next.
+b_l[94][127] is 0.009377 	 1.5*noise threshold is 0.012521
+Move to next.
+b_l[103][127] is 0.01052 	 1.5*noise threshold is 0.012981
+Move to next.
+b_l[112][127] is 0.01015 	 1.5*noise threshold is 0.012486
+Move to next.
+b_l[121][127] is 0.006766 	 1.5*noise threshold is 0.009443
+Move to next.
+b_l[130][127] is 0.002859 	 1.5*noise threshold is 0.006894
+Move to next.
+b_l[4][132] is 0.004823 	 1.5*noise threshold is 0.005766
+Move to next.
+b_l[13][132] is 0.00354 	 1.5*noise threshold is 0.00591
+Move to next.
+b_l[22][132] is 0.005371 	 1.5*noise threshold is 0.011408
+Move to next.
+b_l[31][132] is 0.009585 	 1.5*noise threshold is 0.018423
+Move to next.
+b_l[40][132] is 0.009001 	 1.5*noise threshold is 0.018128
+Move to next.
+b_l[49][132] is 0.004329 	 1.5*noise threshold is 0.011539
+Move to next.
+b_l[58][132] is 0.003066 	 1.5*noise threshold is 0.009688
+Move to next.
+b_l[67][132] is 0.00648 	 1.5*noise threshold is 0.006865
+Move to next.
+b_l[76][132] is 0.007015 	 1.5*noise threshold is 0.009129
+Move to next.
+b_l[85][132] is 0.001498 	 1.5*noise threshold is 0.012257
+Move to next.
+b_l[94][132] is 0.009463 	 1.5*noise threshold is 0.016158
+Move to next.
+b_l[103][132] is 0.011992 	 1.5*noise threshold is 0.017273
+Move to next.
+b_l[112][132] is 0.008185 	 1.5*noise threshold is 0.014354
+Move to next.
+b_l[121][132] is 0.003672 	 1.5*noise threshold is 0.01028
+Move to next.
+b_l[130][132] is 0.001936 	 1.5*noise threshold is 0.007528
+Move to next.
+b_l[4][137] is 0.01312 	 1.5*noise threshold is 0.008487
+Yes human detected.
+b_l[13][137] is 0.010652 	 1.5*noise threshold is 0.008756
+Yes human detected.
+b_l[22][137] is 0.006308 	 1.5*noise threshold is 0.009308
+Move to next.
+b_l[31][137] is 0.00365 	 1.5*noise threshold is 0.011504
+Move to next.
+b_l[40][137] is 0.003686 	 1.5*noise threshold is 0.012473
+Move to next.
+b_l[49][137] is 0.007192 	 1.5*noise threshold is 0.010761
+Move to next.
+b_l[58][137] is 0.007077 	 1.5*noise threshold is 0.008337
+Move to next.
+b_l[67][137] is 0.003609 	 1.5*noise threshold is 0.008092
+Move to next.
+b_l[76][137] is 0.00135 	 1.5*noise threshold is 0.010282
+Move to next.
+b_l[85][137] is 0.004851 	 1.5*noise threshold is 0.011395
+Move to next.
+b_l[94][137] is 0.008499 	 1.5*noise threshold is 0.009068
+Move to next.
+b_l[103][137] is 0.008591 	 1.5*noise threshold is 0.005778
+Yes human detected.
+b_l[112][137] is 0.007667 	 1.5*noise threshold is 0.006866
+Yes human detected.
+b_l[121][137] is 0.005722 	 1.5*noise threshold is 0.007666
+Move to next.
+b_l[130][137] is 0.001154 	 1.5*noise threshold is 0.00768
+Move to next.
+b_l[4][142] is 0.009307 	 1.5*noise threshold is 0.010329
+Move to next.
+b_l[13][142] is 0.012428 	 1.5*noise threshold is 0.010337
+Yes human detected.
+b_l[22][142] is 0.009474 	 1.5*noise threshold is 0.006884
+Yes human detected.
+b_l[31][142] is 0.001317 	 1.5*noise threshold is 0.004972
+Move to next.
+b_l[40][142] is 0.008503 	 1.5*noise threshold is 0.007809
+Yes human detected.
+b_l[49][142] is 0.012287 	 1.5*noise threshold is 0.009691
+Yes human detected.
+b_l[58][142] is 0.01063 	 1.5*noise threshold is 0.009766
+Yes human detected.
+b_l[67][142] is 0.007388 	 1.5*noise threshold is 0.01221
+Move to next.
+b_l[76][142] is 0.006173 	 1.5*noise threshold is 0.015117
+Move to next.
+b_l[85][142] is 0.003593 	 1.5*noise threshold is 0.013415
+Move to next.
+b_l[94][142] is 0.008022 	 1.5*noise threshold is 0.010011
+Move to next.
+b_l[103][142] is 0.013102 	 1.5*noise threshold is 0.007522
+Yes human detected.
+b_l[112][142] is 0.012592 	 1.5*noise threshold is 0.008989
+Yes human detected.
+b_l[121][142] is 0.006229 	 1.5*noise threshold is 0.010545
+Move to next.
+b_l[130][142] is 0.002346 	 1.5*noise threshold is 0.009379
+Move to next.
+b_l[4][147] is 0.005597 	 1.5*noise threshold is 0.009703
+Move to next.
+b_l[13][147] is 0.004665 	 1.5*noise threshold is 0.009091
+Move to next.
+b_l[22][147] is 0.006707 	 1.5*noise threshold is 0.008853
+Move to next.
+b_l[31][147] is 0.010009 	 1.5*noise threshold is 0.007553
+Yes human detected.
+b_l[40][147] is 0.011621 	 1.5*noise threshold is 0.010434
+Yes human detected.
+b_l[49][147] is 0.010469 	 1.5*noise threshold is 0.013904
+Move to next.
+b_l[58][147] is 0.007093 	 1.5*noise threshold is 0.012475
+Move to next.
+b_l[67][147] is 0.009351 	 1.5*noise threshold is 0.010818
+Move to next.
+b_l[76][147] is 0.011366 	 1.5*noise threshold is 0.008766
+Yes human detected.
+b_l[85][147] is 0.007035 	 1.5*noise threshold is 0.009031
+Move to next.
+b_l[94][147] is 0.006485 	 1.5*noise threshold is 0.010937
+Move to next.
+b_l[103][147] is 0.011712 	 1.5*noise threshold is 0.010929
+Yes human detected.
+b_l[112][147] is 0.011266 	 1.5*noise threshold is 0.010754
+Yes human detected.
+b_l[121][147] is 0.006059 	 1.5*noise threshold is 0.009282
+Move to next.
+b_l[130][147] is 0.002219 	 1.5*noise threshold is 0.006128
+Move to next.
+b_l[4][152] is 0.008086 	 1.5*noise threshold is 0.006745
+Yes human detected.
+b_l[13][152] is 0.006364 	 1.5*noise threshold is 0.006629
+Move to next.
+b_l[22][152] is 0.003892 	 1.5*noise threshold is 0.011354
+Move to next.
+b_l[31][152] is 0.008144 	 1.5*noise threshold is 0.017077
+Move to next.
+b_l[40][152] is 0.008366 	 1.5*noise threshold is 0.01547
+Move to next.
+b_l[49][152] is 0.004309 	 1.5*noise threshold is 0.011542
+Move to next.
+b_l[58][152] is 0.004616 	 1.5*noise threshold is 0.01393
+Move to next.
+b_l[67][152] is 0.007328 	 1.5*noise threshold is 0.013328
+Move to next.
+b_l[76][152] is 0.00658 	 1.5*noise threshold is 0.009616
+Move to next.
+b_l[85][152] is 0.001592 	 1.5*noise threshold is 0.011286
+Move to next.
+b_l[94][152] is 0.007451 	 1.5*noise threshold is 0.014428
+Move to next.
+b_l[103][152] is 0.011916 	 1.5*noise threshold is 0.016669
+Move to next.
+b_l[112][152] is 0.010487 	 1.5*noise threshold is 0.015204
+Move to next.
+b_l[121][152] is 0.008185 	 1.5*noise threshold is 0.009325
+Move to next.
+b_l[130][152] is 0.007385 	 1.5*noise threshold is 0.00432
+Yes human detected.
+b_l[4][157] is 0.009438 	 1.5*noise threshold is 0.008123
+Yes human detected.
+b_l[13][157] is 0.010519 	 1.5*noise threshold is 0.007898
+Yes human detected.
+b_l[22][157] is 0.009606 	 1.5*noise threshold is 0.008921
+Yes human detected.
+b_l[31][157] is 0.0077 	 1.5*noise threshold is 0.013807
+Move to next.
+b_l[40][157] is 0.002553 	 1.5*noise threshold is 0.018231
+Move to next.
+b_l[49][157] is 0.005871 	 1.5*noise threshold is 0.017253
+Move to next.
+b_l[58][157] is 0.009256 	 1.5*noise threshold is 0.012782
+Move to next.
+b_l[67][157] is 0.008699 	 1.5*noise threshold is 0.013737
+Move to next.
+b_l[76][157] is 0.007556 	 1.5*noise threshold is 0.01289
+Move to next.
+b_l[85][157] is 0.007779 	 1.5*noise threshold is 0.013371
+Move to next.
+b_l[94][157] is 0.007805 	 1.5*noise threshold is 0.016115
+Move to next.
+b_l[103][157] is 0.006456 	 1.5*noise threshold is 0.012262
+Move to next.
+b_l[112][157] is 0.004574 	 1.5*noise threshold is 0.008439
+Move to next.
+b_l[121][157] is 0.001372 	 1.5*noise threshold is 0.008741
+Move to next.
+b_l[130][157] is 0.000716 	 1.5*noise threshold is 0.007563
+Move to next.
+b_l[4][162] is 0.002819 	 1.5*noise threshold is 0.006962
+Move to next.
+b_l[13][162] is 0.004109 	 1.5*noise threshold is 0.007969
+Move to next.
+b_l[22][162] is 0.008293 	 1.5*noise threshold is 0.008138
+Yes human detected.
+b_l[31][162] is 0.015389 	 1.5*noise threshold is 0.017499
+Move to next.
+b_l[40][162] is 0.020252 	 1.5*noise threshold is 0.026983
+Move to next.
+b_l[49][162] is 0.018841 	 1.5*noise threshold is 0.025736
+Move to next.
+b_l[58][162] is 0.014248 	 1.5*noise threshold is 0.015811
+Move to next.
+b_l[67][162] is 0.014445 	 1.5*noise threshold is 0.011937
+Yes human detected.
+b_l[76][162] is 0.013985 	 1.5*noise threshold is 0.01334
+Yes human detected.
+b_l[85][162] is 0.010374 	 1.5*noise threshold is 0.014159
+Move to next.
+b_l[94][162] is 0.012274 	 1.5*noise threshold is 0.014391
+Move to next.
+b_l[103][162] is 0.015545 	 1.5*noise threshold is 0.013977
+Yes human detected.
+b_l[112][162] is 0.015301 	 1.5*noise threshold is 0.013137
+Yes human detected.
+b_l[121][162] is 0.011321 	 1.5*noise threshold is 0.010755
+Yes human detected.
+b_l[130][162] is 0.005585 	 1.5*noise threshold is 0.007831
+Move to next.
+b_l[4][167] is 0.001464 	 1.5*noise threshold is 0.005154
+Move to next.
+b_l[13][167] is 0.001026 	 1.5*noise threshold is 0.005184
+Move to next.
+b_l[22][167] is 0.003064 	 1.5*noise threshold is 0.008806
+Move to next.
+b_l[31][167] is 0.009604 	 1.5*noise threshold is 0.017169
+Move to next.
+b_l[40][167] is 0.014614 	 1.5*noise threshold is 0.022922
+Move to next.
+b_l[49][167] is 0.011663 	 1.5*noise threshold is 0.020971
+Move to next.
+b_l[58][167] is 0.002987 	 1.5*noise threshold is 0.012715
+Move to next.
+b_l[67][167] is 0.002955 	 1.5*noise threshold is 0.0081
+Move to next.
+b_l[76][167] is 0.002757 	 1.5*noise threshold is 0.010343
+Move to next.
+b_l[85][167] is 0.001187 	 1.5*noise threshold is 0.009756
+Move to next.
+b_l[94][167] is 0.003572 	 1.5*noise threshold is 0.011183
+Move to next.
+b_l[103][167] is 0.005316 	 1.5*noise threshold is 0.014217
+Move to next.
+b_l[112][167] is 0.002543 	 1.5*noise threshold is 0.011696
+Move to next.
+b_l[121][167] is 0.00299 	 1.5*noise threshold is 0.007152
+Move to next.
+b_l[130][167] is 0.005119 	 1.5*noise threshold is 0.005877
+Move to next.
+b_l[4][172] is 0.000423 	 1.5*noise threshold is 0.009961
+Move to next.
+b_l[13][172] is 0.003789 	 1.5*noise threshold is 0.009592
+Move to next.
+b_l[22][172] is 0.007765 	 1.5*noise threshold is 0.011899
+Move to next.
+b_l[31][172] is 0.011127 	 1.5*noise threshold is 0.02145
+Move to next.
+b_l[40][172] is 0.013155 	 1.5*noise threshold is 0.028278
+Move to next.
+b_l[49][172] is 0.011669 	 1.5*noise threshold is 0.024477
+Move to next.
+b_l[58][172] is 0.006307 	 1.5*noise threshold is 0.012265
+Move to next.
+b_l[67][172] is 0.000884 	 1.5*noise threshold is 0.010752
+Move to next.
+b_l[76][172] is 0.004168 	 1.5*noise threshold is 0.015913
+Move to next.
+b_l[85][172] is 0.006396 	 1.5*noise threshold is 0.014969
+Move to next.
+b_l[94][172] is 0.006667 	 1.5*noise threshold is 0.013152
+Move to next.
+b_l[103][172] is 0.004232 	 1.5*noise threshold is 0.011569
+Move to next.
+b_l[112][172] is 0.001683 	 1.5*noise threshold is 0.009038
+Move to next.
+b_l[121][172] is 0.002655 	 1.5*noise threshold is 0.009239
+Move to next.
+b_l[130][172] is 0.005046 	 1.5*noise threshold is 0.009103
+Move to next.
+b_l[4][177] is 0.008193 	 1.5*noise threshold is 0.008952
+Move to next.
+b_l[13][177] is 0.007725 	 1.5*noise threshold is 0.009257
+Move to next.
+b_l[22][177] is 0.006734 	 1.5*noise threshold is 0.011279
+Move to next.
+b_l[31][177] is 0.012409 	 1.5*noise threshold is 0.018476
+Move to next.
+b_l[40][177] is 0.019372 	 1.5*noise threshold is 0.023748
+Move to next.
+b_l[49][177] is 0.020734 	 1.5*noise threshold is 0.020402
+Yes human detected.
+b_l[58][177] is 0.015276 	 1.5*noise threshold is 0.011903
+Yes human detected.
+b_l[67][177] is 0.01016 	 1.5*noise threshold is 0.013203
+Move to next.
+b_l[76][177] is 0.012759 	 1.5*noise threshold is 0.018293
+Move to next.
+b_l[85][177] is 0.01295 	 1.5*noise threshold is 0.018203
+Move to next.
+b_l[94][177] is 0.007516 	 1.5*noise threshold is 0.014968
+Move to next.
+b_l[103][177] is 0.003079 	 1.5*noise threshold is 0.012742
+Move to next.
+b_l[112][177] is 0.004464 	 1.5*noise threshold is 0.012122
+Move to next.
+b_l[121][177] is 0.007607 	 1.5*noise threshold is 0.010674
+Move to next.
+b_l[130][177] is 0.006563 	 1.5*noise threshold is 0.007642
+Move to next.
+b_l[4][182] is 0.007513 	 1.5*noise threshold is 0.005688
+Yes human detected.
+b_l[13][182] is 0.008542 	 1.5*noise threshold is 0.007267
+Yes human detected.
+b_l[22][182] is 0.006007 	 1.5*noise threshold is 0.010138
+Move to next.
+b_l[31][182] is 0.005554 	 1.5*noise threshold is 0.014594
+Move to next.
+b_l[40][182] is 0.011238 	 1.5*noise threshold is 0.018638
+Move to next.
+b_l[49][182] is 0.013175 	 1.5*noise threshold is 0.018177
+Move to next.
+b_l[58][182] is 0.01064 	 1.5*noise threshold is 0.013137
+Move to next.
+b_l[67][182] is 0.007 	 1.5*noise threshold is 0.011429
+Move to next.
+b_l[76][182] is 0.009137 	 1.5*noise threshold is 0.012359
+Move to next.
+b_l[85][182] is 0.012152 	 1.5*noise threshold is 0.012049
+Yes human detected.
+b_l[94][182] is 0.009516 	 1.5*noise threshold is 0.010583
+Move to next.
+b_l[103][182] is 0.003391 	 1.5*noise threshold is 0.009717
+Move to next.
+b_l[112][182] is 0.003592 	 1.5*noise threshold is 0.009931
+Move to next.
+b_l[121][182] is 0.007824 	 1.5*noise threshold is 0.009984
+Move to next.
+b_l[130][182] is 0.006278 	 1.5*noise threshold is 0.007596
+Move to next.
+b_l[4][187] is 0.002225 	 1.5*noise threshold is 0.007271
+Move to next.
+b_l[13][187] is 0.003787 	 1.5*noise threshold is 0.008597
+Move to next.
+b_l[22][187] is 0.004755 	 1.5*noise threshold is 0.010715
+Move to next.
+b_l[31][187] is 0.004137 	 1.5*noise threshold is 0.011154
+Move to next.
+b_l[40][187] is 0.004693 	 1.5*noise threshold is 0.008326
+Move to next.
+b_l[49][187] is 0.006109 	 1.5*noise threshold is 0.013779
+Move to next.
+b_l[58][187] is 0.003192 	 1.5*noise threshold is 0.016076
+Move to next.
+b_l[67][187] is 0.003527 	 1.5*noise threshold is 0.011671
+Move to next.
+b_l[76][187] is 0.005284 	 1.5*noise threshold is 0.009871
+Move to next.
+b_l[85][187] is 0.003551 	 1.5*noise threshold is 0.010433
+Move to next.
+b_l[94][187] is 0.003298 	 1.5*noise threshold is 0.007406
+Move to next.
+b_l[103][187] is 0.005632 	 1.5*noise threshold is 0.00824
+Move to next.
+b_l[112][187] is 0.006902 	 1.5*noise threshold is 0.00918
+Move to next.
+b_l[121][187] is 0.005791 	 1.5*noise threshold is 0.00624
+Move to next.
+b_l[130][187] is 0.002794 	 1.5*noise threshold is 0.003381
+Move to next.
+b_l[4][192] is 0.007822 	 1.5*noise threshold is 0.01077
+Move to next.
+b_l[13][192] is 0.00616 	 1.5*noise threshold is 0.011731
+Move to next.
+b_l[22][192] is 0.005826 	 1.5*noise threshold is 0.012075
+Move to next.
+b_l[31][192] is 0.004858 	 1.5*noise threshold is 0.013194
+Move to next.
+b_l[40][192] is 0.004022 	 1.5*noise threshold is 0.012103
+Move to next.
+b_l[49][192] is 0.004945 	 1.5*noise threshold is 0.00678
+Move to next.
+b_l[58][192] is 0.008956 	 1.5*noise threshold is 0.010377
+Move to next.
+b_l[67][192] is 0.011991 	 1.5*noise threshold is 0.014605
+Move to next.
+b_l[76][192] is 0.009111 	 1.5*noise threshold is 0.013888
+Move to next.
+b_l[85][192] is 0.000535 	 1.5*noise threshold is 0.011552
+Move to next.
+b_l[94][192] is 0.00905 	 1.5*noise threshold is 0.010587
+Move to next.
+b_l[103][192] is 0.009624 	 1.5*noise threshold is 0.010322
+Move to next.
+b_l[112][192] is 0.005468 	 1.5*noise threshold is 0.008727
+Move to next.
+b_l[121][192] is 0.003723 	 1.5*noise threshold is 0.00758
+Move to next.
+b_l[130][192] is 0.003986 	 1.5*noise threshold is 0.005654
+Move to next.
+b_l[4][197] is 0.004773 	 1.5*noise threshold is 0.009603
+Move to next.
+b_l[13][197] is 0.00625 	 1.5*noise threshold is 0.010352
+Move to next.
+b_l[22][197] is 0.007223 	 1.5*noise threshold is 0.010038
+Move to next.
+b_l[31][197] is 0.007339 	 1.5*noise threshold is 0.013721
+Move to next.
+b_l[40][197] is 0.003593 	 1.5*noise threshold is 0.014077
+Move to next.
+b_l[49][197] is 0.005337 	 1.5*noise threshold is 0.011948
+Move to next.
+b_l[58][197] is 0.012204 	 1.5*noise threshold is 0.013782
+Move to next.
+b_l[67][197] is 0.013827 	 1.5*noise threshold is 0.01458
+Move to next.
+b_l[76][197] is 0.010681 	 1.5*noise threshold is 0.011112
+Move to next.
+b_l[85][197] is 0.005848 	 1.5*noise threshold is 0.008046
+Move to next.
+b_l[94][197] is 0.001918 	 1.5*noise threshold is 0.010055
+Move to next.
+b_l[103][197] is 0.00439 	 1.5*noise threshold is 0.011613
+Move to next.
+b_l[112][197] is 0.006175 	 1.5*noise threshold is 0.00963
+Move to next.
+b_l[121][197] is 0.005599 	 1.5*noise threshold is 0.008408
+Move to next.
+b_l[130][197] is 0.003811 	 1.5*noise threshold is 0.008662
+Move to next.
+b_l[4][202] is 0.005973 	 1.5*noise threshold is 0.007759
+Move to next.
+b_l[13][202] is 0.003897 	 1.5*noise threshold is 0.008713
+Move to next.
+b_l[22][202] is 0.001919 	 1.5*noise threshold is 0.010651
+Move to next.
+b_l[31][202] is 0.006109 	 1.5*noise threshold is 0.014978
+Move to next.
+b_l[40][202] is 0.009887 	 1.5*noise threshold is 0.015058
+Move to next.
+b_l[49][202] is 0.00977 	 1.5*noise threshold is 0.010191
+Move to next.
+b_l[58][202] is 0.006491 	 1.5*noise threshold is 0.01119
+Move to next.
+b_l[67][202] is 0.00298 	 1.5*noise threshold is 0.013403
+Move to next.
+b_l[76][202] is 0.001376 	 1.5*noise threshold is 0.013225
+Move to next.
+b_l[85][202] is 0.002539 	 1.5*noise threshold is 0.011837
+Move to next.
+b_l[94][202] is 0.004351 	 1.5*noise threshold is 0.009415
+Move to next.
+b_l[103][202] is 0.005856 	 1.5*noise threshold is 0.010893
+Move to next.
+b_l[112][202] is 0.006704 	 1.5*noise threshold is 0.011132
+Move to next.
+b_l[121][202] is 0.006754 	 1.5*noise threshold is 0.007726
+Move to next.
+b_l[130][202] is 0.00516 	 1.5*noise threshold is 0.006358
+Move to next.
+b_l[4][207] is 0.004271 	 1.5*noise threshold is 0.007754
+Move to next.
+b_l[13][207] is 0.007273 	 1.5*noise threshold is 0.007326
+Move to next.
+b_l[22][207] is 0.009496 	 1.5*noise threshold is 0.006291
+Yes human detected.
+b_l[31][207] is 0.007952 	 1.5*noise threshold is 0.006672
+Yes human detected.
+b_l[40][207] is 0.007449 	 1.5*noise threshold is 0.007653
+Move to next.
+b_l[49][207] is 0.007337 	 1.5*noise threshold is 0.009458
+Move to next.
+b_l[58][207] is 0.004218 	 1.5*noise threshold is 0.008407
+Move to next.
+b_l[67][207] is 0.002314 	 1.5*noise threshold is 0.006897
+Move to next.
+b_l[76][207] is 0.006942 	 1.5*noise threshold is 0.008297
+Move to next.
+b_l[85][207] is 0.011865 	 1.5*noise threshold is 0.009974
+Yes human detected.
+b_l[94][207] is 0.012182 	 1.5*noise threshold is 0.010708
+Yes human detected.
+b_l[103][207] is 0.008571 	 1.5*noise threshold is 0.008718
+Move to next.
+b_l[112][207] is 0.005992 	 1.5*noise threshold is 0.006462
+Move to next.
+b_l[121][207] is 0.005671 	 1.5*noise threshold is 0.007232
+Move to next.
+b_l[130][207] is 0.004901 	 1.5*noise threshold is 0.007479
+Move to next.
+b_l[4][212] is 0.002761 	 1.5*noise threshold is 0.010278
+Move to next.
+b_l[13][212] is 0.004976 	 1.5*noise threshold is 0.00914
+Move to next.
+b_l[22][212] is 0.008151 	 1.5*noise threshold is 0.008875
+Move to next.
+b_l[31][212] is 0.007654 	 1.5*noise threshold is 0.015357
+Move to next.
+b_l[40][212] is 0.005301 	 1.5*noise threshold is 0.018753
+Move to next.
+b_l[49][212] is 0.00967 	 1.5*noise threshold is 0.015845
+Move to next.
+b_l[58][212] is 0.010645 	 1.5*noise threshold is 0.008161
+Yes human detected.
+b_l[67][212] is 0.005961 	 1.5*noise threshold is 0.006017
+Move to next.
+b_l[76][212] is 0.002259 	 1.5*noise threshold is 0.00892
+Move to next.
+b_l[85][212] is 0.004443 	 1.5*noise threshold is 0.010305
+Move to next.
+b_l[94][212] is 0.005326 	 1.5*noise threshold is 0.00993
+Move to next.
+b_l[103][212] is 0.005451 	 1.5*noise threshold is 0.009443
+Move to next.
+b_l[112][212] is 0.0026 	 1.5*noise threshold is 0.007929
+Move to next.
+b_l[121][212] is 0.002207 	 1.5*noise threshold is 0.008702
+Move to next.
+b_l[130][212] is 0.004845 	 1.5*noise threshold is 0.008689
+Move to next.
+b_l[4][217] is 0.007678 	 1.5*noise threshold is 0.008018
+Move to next.
+b_l[13][217] is 0.006512 	 1.5*noise threshold is 0.007944
+Move to next.
+b_l[22][217] is 0.001092 	 1.5*noise threshold is 0.008537
+Move to next.
+b_l[31][217] is 0.007479 	 1.5*noise threshold is 0.011481
+Move to next.
+b_l[40][217] is 0.010744 	 1.5*noise threshold is 0.013984
+Move to next.
+b_l[49][217] is 0.008084 	 1.5*noise threshold is 0.01292
+Move to next.
+b_l[58][217] is 0.002824 	 1.5*noise threshold is 0.007863
+Move to next.
+b_l[67][217] is 0.004379 	 1.5*noise threshold is 0.006407
+Move to next.
+b_l[76][217] is 0.00579 	 1.5*noise threshold is 0.008383
+Move to next.
+b_l[85][217] is 0.003135 	 1.5*noise threshold is 0.00827
+Move to next.
+b_l[94][217] is 0.001742 	 1.5*noise threshold is 0.00758
+Move to next.
+b_l[103][217] is 0.004649 	 1.5*noise threshold is 0.007419
+Move to next.
+b_l[112][217] is 0.008718 	 1.5*noise threshold is 0.009149
+Move to next.
+b_l[121][217] is 0.008653 	 1.5*noise threshold is 0.009796
+Move to next.
+b_l[130][217] is 0.003759 	 1.5*noise threshold is 0.007266
+Move to next.
+b_l[4][222] is 0.007179 	 1.5*noise threshold is 0.008475
+Move to next.
+b_l[13][222] is 0.008248 	 1.5*noise threshold is 0.007655
+Yes human detected.
+b_l[22][222] is 0.005609 	 1.5*noise threshold is 0.006874
+Move to next.
+b_l[31][222] is 0.003065 	 1.5*noise threshold is 0.006886
+Move to next.
+b_l[40][222] is 0.001166 	 1.5*noise threshold is 0.005251
+Move to next.
+b_l[49][222] is 0.002921 	 1.5*noise threshold is 0.008783
+Move to next.
+b_l[58][222] is 0.003946 	 1.5*noise threshold is 0.010819
+Move to next.
+b_l[67][222] is 0.005956 	 1.5*noise threshold is 0.009726
+Move to next.
+b_l[76][222] is 0.00772 	 1.5*noise threshold is 0.010946
+Move to next.
+b_l[85][222] is 0.006879 	 1.5*noise threshold is 0.010648
+Move to next.
+b_l[94][222] is 0.004891 	 1.5*noise threshold is 0.010693
+Move to next.
+b_l[103][222] is 0.003635 	 1.5*noise threshold is 0.010048
+Move to next.
+b_l[112][222] is 0.002698 	 1.5*noise threshold is 0.006982
+Move to next.
+b_l[121][222] is 0.00219 	 1.5*noise threshold is 0.005547
+Move to next.
+b_l[130][222] is 0.000593 	 1.5*noise threshold is 0.004799
+Move to next.
+b_l[4][227] is 0.011825 	 1.5*noise threshold is 0.009489
+Yes human detected.
+b_l[13][227] is 0.010941 	 1.5*noise threshold is 0.007729
+Yes human detected.
+b_l[22][227] is 0.005538 	 1.5*noise threshold is 0.008267
+Move to next.
+b_l[31][227] is 0.005673 	 1.5*noise threshold is 0.009519
+Move to next.
+b_l[40][227] is 0.008827 	 1.5*noise threshold is 0.010114
+Move to next.
+b_l[49][227] is 0.009119 	 1.5*noise threshold is 0.01113
+Move to next.
+b_l[58][227] is 0.007802 	 1.5*noise threshold is 0.009471
+Move to next.
+b_l[67][227] is 0.005978 	 1.5*noise threshold is 0.007398
+Move to next.
+b_l[76][227] is 0.006039 	 1.5*noise threshold is 0.009361
+Move to next.
+b_l[85][227] is 0.006757 	 1.5*noise threshold is 0.01018
+Move to next.
+b_l[94][227] is 0.005778 	 1.5*noise threshold is 0.009135
+Move to next.
+b_l[103][227] is 0.003832 	 1.5*noise threshold is 0.008603
+Move to next.
+b_l[112][227] is 0.004471 	 1.5*noise threshold is 0.007082
+Move to next.
+b_l[121][227] is 0.004864 	 1.5*noise threshold is 0.005535
+Move to next.
+b_l[130][227] is 0.004066 	 1.5*noise threshold is 0.006417
+Move to next.
+b_l[4][232] is 0.004269 	 1.5*noise threshold is 0.008737
+Move to next.
+b_l[13][232] is 0.007389 	 1.5*noise threshold is 0.008153
+Move to next.
+b_l[22][232] is 0.01124 	 1.5*noise threshold is 0.007897
+Yes human detected.
+b_l[31][232] is 0.01306 	 1.5*noise threshold is 0.01265
+Yes human detected.
+b_l[40][232] is 0.01042 	 1.5*noise threshold is 0.016492
+Move to next.
+b_l[49][232] is 0.00294 	 1.5*noise threshold is 0.016423
+Move to next.
+b_l[58][232] is 0.007733 	 1.5*noise threshold is 0.013639
+Move to next.
+b_l[67][232] is 0.016367 	 1.5*noise threshold is 0.010012
+Yes human detected.
+b_l[76][232] is 0.020307 	 1.5*noise threshold is 0.009872
+Yes human detected.
+b_l[85][232] is 0.018586 	 1.5*noise threshold is 0.012027
+Yes human detected.
+b_l[94][232] is 0.013305 	 1.5*noise threshold is 0.013679
+Move to next.
+b_l[103][232] is 0.005816 	 1.5*noise threshold is 0.01324
+Move to next.
+b_l[112][232] is 0.003857 	 1.5*noise threshold is 0.012602
+Move to next.
+b_l[121][232] is 0.009286 	 1.5*noise threshold is 0.011013
+Move to next.
+b_l[130][232] is 0.008608 	 1.5*noise threshold is 0.007846
+Yes human detected.
+b_l[4][237] is 0.001291 	 1.5*noise threshold is 0.006784
+Move to next.
+b_l[13][237] is 0.001378 	 1.5*noise threshold is 0.006446
+Move to next.
+b_l[22][237] is 0.001641 	 1.5*noise threshold is 0.010367
+Move to next.
+b_l[31][237] is 0.00053 	 1.5*noise threshold is 0.014538
+Move to next.
+b_l[40][237] is 0.002739 	 1.5*noise threshold is 0.01399
+Move to next.
+b_l[49][237] is 0.002934 	 1.5*noise threshold is 0.007836
+Move to next.
+b_l[58][237] is 0.004749 	 1.5*noise threshold is 0.006267
+Move to next.
+b_l[67][237] is 0.010932 	 1.5*noise threshold is 0.011288
+Move to next.
+b_l[76][237] is 0.012977 	 1.5*noise threshold is 0.013276
+Move to next.
+b_l[85][237] is 0.012777 	 1.5*noise threshold is 0.01271
+Yes human detected.
+b_l[94][237] is 0.011774 	 1.5*noise threshold is 0.012427
+Move to next.
+b_l[103][237] is 0.009086 	 1.5*noise threshold is 0.012465
+Move to next.
+b_l[112][237] is 0.008147 	 1.5*noise threshold is 0.010808
+Move to next.
+b_l[121][237] is 0.008323 	 1.5*noise threshold is 0.008321
+Yes human detected.
+b_l[130][237] is 0.007625 	 1.5*noise threshold is 0.007313
+Yes human detected.
+b_l[4][242] is 0.006035 	 1.5*noise threshold is 0.010334
+Move to next.
+b_l[13][242] is 0.006361 	 1.5*noise threshold is 0.011125
+Move to next.
+b_l[22][242] is 0.003662 	 1.5*noise threshold is 0.009126
+Move to next.
+b_l[31][242] is 0.003883 	 1.5*noise threshold is 0.012584
+Move to next.
+b_l[40][242] is 0.009495 	 1.5*noise threshold is 0.01571
+Move to next.
+b_l[49][242] is 0.009524 	 1.5*noise threshold is 0.010636
+Move to next.
+b_l[58][242] is 0.005318 	 1.5*noise threshold is 0.00885
+Move to next.
+b_l[67][242] is 0.003523 	 1.5*noise threshold is 0.012271
+Move to next.
+b_l[76][242] is 0.005324 	 1.5*noise threshold is 0.010934
+Move to next.
+b_l[85][242] is 0.005149 	 1.5*noise threshold is 0.007883
+Move to next.
+b_l[94][242] is 0.000617 	 1.5*noise threshold is 0.006409
+Move to next.
+b_l[103][242] is 0.005816 	 1.5*noise threshold is 0.007153
+Move to next.
+b_l[112][242] is 0.00678 	 1.5*noise threshold is 0.00876
+Move to next.
+b_l[121][242] is 0.004386 	 1.5*noise threshold is 0.008414
+Move to next.
+b_l[130][242] is 0.003116 	 1.5*noise threshold is 0.006114
+Move to next.
+b_l[4][247] is 0.011985 	 1.5*noise threshold is 0.008606
+Yes human detected.
+b_l[13][247] is 0.015777 	 1.5*noise threshold is 0.010933
+Yes human detected.
+b_l[22][247] is 0.015679 	 1.5*noise threshold is 0.013339
+Yes human detected.
+b_l[31][247] is 0.014181 	 1.5*noise threshold is 0.017486
+Move to next.
+b_l[40][247] is 0.015889 	 1.5*noise threshold is 0.020368
+Move to next.
+b_l[49][247] is 0.013888 	 1.5*noise threshold is 0.017413
+Move to next.
+b_l[58][247] is 0.011947 	 1.5*noise threshold is 0.01404
+Move to next.
+b_l[67][247] is 0.015204 	 1.5*noise threshold is 0.01237
+Yes human detected.
+b_l[76][247] is 0.015684 	 1.5*noise threshold is 0.01166
+Yes human detected.
+b_l[85][247] is 0.012973 	 1.5*noise threshold is 0.014735
+Move to next.
+b_l[94][247] is 0.013253 	 1.5*noise threshold is 0.016707
+Move to next.
+b_l[103][247] is 0.014829 	 1.5*noise threshold is 0.012703
+Yes human detected.
+b_l[112][247] is 0.012639 	 1.5*noise threshold is 0.009112
+Yes human detected.
+b_l[121][247] is 0.006125 	 1.5*noise threshold is 0.010268
+Move to next.
+b_l[130][247] is 0.001034 	 1.5*noise threshold is 0.008449
+Move to next.
+b_l[4][252] is 0.002531 	 1.5*noise threshold is 0.009354
+Move to next.
+b_l[13][252] is 0.001531 	 1.5*noise threshold is 0.009453
+Move to next.
+b_l[22][252] is 0.00288 	 1.5*noise threshold is 0.008766
+Move to next.
+b_l[31][252] is 0.005287 	 1.5*noise threshold is 0.008116
+Move to next.
+b_l[40][252] is 0.008018 	 1.5*noise threshold is 0.009407
+Move to next.
+b_l[49][252] is 0.007898 	 1.5*noise threshold is 0.008131
+Move to next.
+b_l[58][252] is 0.005906 	 1.5*noise threshold is 0.008628
+Move to next.
+b_l[67][252] is 0.005412 	 1.5*noise threshold is 0.010827
+Move to next.
+b_l[76][252] is 0.006142 	 1.5*noise threshold is 0.012438
+Move to next.
+b_l[85][252] is 0.00771 	 1.5*noise threshold is 0.01178
+Move to next.
+b_l[94][252] is 0.006274 	 1.5*noise threshold is 0.009225
+Move to next.
+b_l[103][252] is 0.004934 	 1.5*noise threshold is 0.007482
+Move to next.
+b_l[112][252] is 0.008894 	 1.5*noise threshold is 0.009079
+Move to next.
+b_l[121][252] is 0.007977 	 1.5*noise threshold is 0.008604
+Move to next.
+b_l[130][252] is 0.002214 	 1.5*noise threshold is 0.005568
+Move to next.
+b_l[4][257] is 0.005305 	 1.5*noise threshold is 0.010722
+Move to next.
+b_l[13][257] is 0.005638 	 1.5*noise threshold is 0.009882
+Move to next.
+b_l[22][257] is 0.007108 	 1.5*noise threshold is 0.008093
+Move to next.
+b_l[31][257] is 0.010023 	 1.5*noise threshold is 0.009881
+Yes human detected.
+b_l[40][257] is 0.011291 	 1.5*noise threshold is 0.012183
+Move to next.
+b_l[49][257] is 0.009457 	 1.5*noise threshold is 0.010181
+Move to next.
+b_l[58][257] is 0.008047 	 1.5*noise threshold is 0.010487
+Move to next.
+b_l[67][257] is 0.009993 	 1.5*noise threshold is 0.015
+Move to next.
+b_l[76][257] is 0.008861 	 1.5*noise threshold is 0.014417
+Move to next.
+b_l[85][257] is 0.007133 	 1.5*noise threshold is 0.0108
+Move to next.
+b_l[94][257] is 0.008346 	 1.5*noise threshold is 0.009246
+Move to next.
+b_l[103][257] is 0.00669 	 1.5*noise threshold is 0.008559
+Move to next.
+b_l[112][257] is 0.002481 	 1.5*noise threshold is 0.006969
+Move to next.
+b_l[121][257] is 0.003651 	 1.5*noise threshold is 0.006896
+Move to next.
+b_l[130][257] is 0.005823 	 1.5*noise threshold is 0.007161
+Move to next.
+b_l[4][262] is 0.008783 	 1.5*noise threshold is 0.006335
+Yes human detected.
+b_l[13][262] is 0.009874 	 1.5*noise threshold is 0.006105
+Yes human detected.
+b_l[22][262] is 0.006943 	 1.5*noise threshold is 0.006355
+Yes human detected.
+b_l[31][262] is 0.002619 	 1.5*noise threshold is 0.008681
+Move to next.
+b_l[40][262] is 0.004696 	 1.5*noise threshold is 0.013302
+Move to next.
+b_l[49][262] is 0.005499 	 1.5*noise threshold is 0.013135
+Move to next.
+b_l[58][262] is 0.004587 	 1.5*noise threshold is 0.009974
+Move to next.
+b_l[67][262] is 0.004462 	 1.5*noise threshold is 0.007986
+Move to next.
+b_l[76][262] is 0.004525 	 1.5*noise threshold is 0.010325
+Move to next.
+b_l[85][262] is 0.004107 	 1.5*noise threshold is 0.01357
+Move to next.
+b_l[94][262] is 0.003941 	 1.5*noise threshold is 0.012927
+Move to next.
+b_l[103][262] is 0.006375 	 1.5*noise threshold is 0.01096
+Move to next.
+b_l[112][262] is 0.007377 	 1.5*noise threshold is 0.01238
+Move to next.
+b_l[121][262] is 0.005298 	 1.5*noise threshold is 0.012029
+Move to next.
+b_l[130][262] is 0.002856 	 1.5*noise threshold is 0.006813
+Move to next.
+b_l[4][267] is 0.006534 	 1.5*noise threshold is 0.010332
+Move to next.
+b_l[13][267] is 0.008952 	 1.5*noise threshold is 0.01313
+Move to next.
+b_l[22][267] is 0.010866 	 1.5*noise threshold is 0.013681
+Move to next.
+b_l[31][267] is 0.011141 	 1.5*noise threshold is 0.015888
+Move to next.
+b_l[40][267] is 0.011939 	 1.5*noise threshold is 0.017914
+Move to next.
+b_l[49][267] is 0.012089 	 1.5*noise threshold is 0.014172
+Move to next.
+b_l[58][267] is 0.007726 	 1.5*noise threshold is 0.0125
+Move to next.
+b_l[67][267] is 0.00243 	 1.5*noise threshold is 0.015597
+Move to next.
+b_l[76][267] is 0.005986 	 1.5*noise threshold is 0.015608
+Move to next.
+b_l[85][267] is 0.01053 	 1.5*noise threshold is 0.013246
+Move to next.
+b_l[94][267] is 0.011943 	 1.5*noise threshold is 0.012192
+Move to next.
+b_l[103][267] is 0.007791 	 1.5*noise threshold is 0.012715
+Move to next.
+b_l[112][267] is 0.001658 	 1.5*noise threshold is 0.011874
+Move to next.
+b_l[121][267] is 0.004108 	 1.5*noise threshold is 0.008534
+Move to next.
+b_l[130][267] is 0.003204 	 1.5*noise threshold is 0.005218
+Move to next.
+b_l[4][272] is 0.007105 	 1.5*noise threshold is 0.008577
+Move to next.
+b_l[13][272] is 0.005926 	 1.5*noise threshold is 0.007541
+Move to next.
+b_l[22][272] is 0.002535 	 1.5*noise threshold is 0.005685
+Move to next.
+b_l[31][272] is 0.00618 	 1.5*noise threshold is 0.010056
+Move to next.
+b_l[40][272] is 0.008267 	 1.5*noise threshold is 0.014602
+Move to next.
+b_l[49][272] is 0.00687 	 1.5*noise threshold is 0.011204
+Move to next.
+b_l[58][272] is 0.005224 	 1.5*noise threshold is 0.007278
+Move to next.
+b_l[67][272] is 0.004771 	 1.5*noise threshold is 0.009637
+Move to next.
+b_l[76][272] is 0.004048 	 1.5*noise threshold is 0.010664
+Move to next.
+b_l[85][272] is 0.005229 	 1.5*noise threshold is 0.009464
+Move to next.
+b_l[94][272] is 0.005336 	 1.5*noise threshold is 0.006606
+Move to next.
+b_l[103][272] is 0.003446 	 1.5*noise threshold is 0.007653
+Move to next.
+b_l[112][272] is 0.004407 	 1.5*noise threshold is 0.009186
+Move to next.
+b_l[121][272] is 0.00519 	 1.5*noise threshold is 0.00841
+Move to next.
+b_l[130][272] is 0.004238 	 1.5*noise threshold is 0.005898
+Move to next.
+b_l[4][277] is 0.007312 	 1.5*noise threshold is 0.006776
+Yes human detected.
+b_l[13][277] is 0.005703 	 1.5*noise threshold is 0.007626
+Move to next.
+b_l[22][277] is 0.010073 	 1.5*noise threshold is 0.00986
+Yes human detected.
+b_l[31][277] is 0.013138 	 1.5*noise threshold is 0.01112
+Yes human detected.
+b_l[40][277] is 0.012584 	 1.5*noise threshold is 0.010014
+Yes human detected.
+b_l[49][277] is 0.00783 	 1.5*noise threshold is 0.00965
+Move to next.
+b_l[58][277] is 0.001002 	 1.5*noise threshold is 0.009627
+Move to next.
+b_l[67][277] is 0.007851 	 1.5*noise threshold is 0.010299
+Move to next.
+b_l[76][277] is 0.009987 	 1.5*noise threshold is 0.011319
+Move to next.
+b_l[85][277] is 0.008049 	 1.5*noise threshold is 0.013716
+Move to next.
+b_l[94][277] is 0.008899 	 1.5*noise threshold is 0.014291
+Move to next.
+b_l[103][277] is 0.013358 	 1.5*noise threshold is 0.013066
+Yes human detected.
+b_l[112][277] is 0.012712 	 1.5*noise threshold is 0.012958
+Move to next.
+b_l[121][277] is 0.005524 	 1.5*noise threshold is 0.01201
+Move to next.
+b_l[130][277] is 0.003075 	 1.5*noise threshold is 0.00974
+Move to next.
+b_l[4][282] is 0.006021 	 1.5*noise threshold is 0.00591
+Yes human detected.
+b_l[13][282] is 0.00487 	 1.5*noise threshold is 0.007055
+Move to next.
+b_l[22][282] is 0.001807 	 1.5*noise threshold is 0.010078
+Move to next.
+b_l[31][282] is 0.005098 	 1.5*noise threshold is 0.011757
+Move to next.
+b_l[40][282] is 0.012279 	 1.5*noise threshold is 0.012012
+Yes human detected.
+b_l[49][282] is 0.015251 	 1.5*noise threshold is 0.009849
+Yes human detected.
+b_l[58][282] is 0.010303 	 1.5*noise threshold is 0.008709
+Yes human detected.
+b_l[67][282] is 0.003504 	 1.5*noise threshold is 0.011659
+Move to next.
+b_l[76][282] is 0.005313 	 1.5*noise threshold is 0.012998
+Move to next.
+b_l[85][282] is 0.006032 	 1.5*noise threshold is 0.012133
+Move to next.
+b_l[94][282] is 0.007312 	 1.5*noise threshold is 0.009985
+Move to next.
+b_l[103][282] is 0.007218 	 1.5*noise threshold is 0.007331
+Move to next.
+b_l[112][282] is 0.004566 	 1.5*noise threshold is 0.006589
+Move to next.
+b_l[121][282] is 0.001789 	 1.5*noise threshold is 0.008103
+Move to next.
+b_l[130][282] is 0.003804 	 1.5*noise threshold is 0.007627
+Move to next.
+b_l[4][287] is 0.00566 	 1.5*noise threshold is 0.010518
+Move to next.
+b_l[13][287] is 0.002051 	 1.5*noise threshold is 0.009053
+Move to next.
+b_l[22][287] is 0.005183 	 1.5*noise threshold is 0.006802
+Move to next.
+b_l[31][287] is 0.007046 	 1.5*noise threshold is 0.008109
+Move to next.
+b_l[40][287] is 0.005136 	 1.5*noise threshold is 0.009099
+Move to next.
+b_l[49][287] is 0.006004 	 1.5*noise threshold is 0.011546
+Move to next.
+b_l[58][287] is 0.006702 	 1.5*noise threshold is 0.011518
+Move to next.
+b_l[67][287] is 0.002583 	 1.5*noise threshold is 0.009393
+Move to next.
+b_l[76][287] is 0.005689 	 1.5*noise threshold is 0.010441
+Move to next.
+b_l[85][287] is 0.009744 	 1.5*noise threshold is 0.011753
+Move to next.
+b_l[94][287] is 0.012303 	 1.5*noise threshold is 0.011291
+Yes human detected.
+b_l[103][287] is 0.012031 	 1.5*noise threshold is 0.008829
+Yes human detected.
+b_l[112][287] is 0.0064 	 1.5*noise threshold is 0.005999
+Yes human detected.
+b_l[121][287] is 0.000681 	 1.5*noise threshold is 0.004882
+Move to next.
+b_l[130][287] is 0.004467 	 1.5*noise threshold is 0.004485
+Move to next.
+b_l[4][292] is 0.006444 	 1.5*noise threshold is 0.008108
+Move to next.
+b_l[13][292] is 0.005156 	 1.5*noise threshold is 0.008455
+Move to next.
+b_l[22][292] is 0.006075 	 1.5*noise threshold is 0.008663
+Move to next.
+b_l[31][292] is 0.007297 	 1.5*noise threshold is 0.007865
+Move to next.
+b_l[40][292] is 0.002577 	 1.5*noise threshold is 0.005531
+Move to next.
+b_l[49][292] is 0.005884 	 1.5*noise threshold is 0.00626
+Move to next.
+b_l[58][292] is 0.009076 	 1.5*noise threshold is 0.006821
+Yes human detected.
+b_l[67][292] is 0.009089 	 1.5*noise threshold is 0.007468
+Yes human detected.
+b_l[76][292] is 0.007983 	 1.5*noise threshold is 0.009651
+Move to next.
+b_l[85][292] is 0.00466 	 1.5*noise threshold is 0.008353
+Move to next.
+b_l[94][292] is 0.00385 	 1.5*noise threshold is 0.007365
+Move to next.
+b_l[103][292] is 0.007403 	 1.5*noise threshold is 0.0079
+Move to next.
+b_l[112][292] is 0.007985 	 1.5*noise threshold is 0.00707
+Yes human detected.
+b_l[121][292] is 0.005583 	 1.5*noise threshold is 0.005654
+Move to next.
+b_l[130][292] is 0.002892 	 1.5*noise threshold is 0.003786
+Move to next.
+b_l[4][297] is 0.007955 	 1.5*noise threshold is 0.013251
+Move to next.
+b_l[13][297] is 0.008146 	 1.5*noise threshold is 0.010354
+Move to next.
+b_l[22][297] is 0.007467 	 1.5*noise threshold is 0.006387
+Yes human detected.
+b_l[31][297] is 0.009057 	 1.5*noise threshold is 0.013482
+Move to next.
+b_l[40][297] is 0.013487 	 1.5*noise threshold is 0.018027
+Move to next.
+b_l[49][297] is 0.01311 	 1.5*noise threshold is 0.014484
+Move to next.
+b_l[58][297] is 0.006194 	 1.5*noise threshold is 0.006393
+Move to next.
+b_l[67][297] is 0.005491 	 1.5*noise threshold is 0.007051
+Move to next.
+b_l[76][297] is 0.005728 	 1.5*noise threshold is 0.008152
+Move to next.
+b_l[85][297] is 0.004421 	 1.5*noise threshold is 0.009022
+Move to next.
+b_l[94][297] is 0.003007 	 1.5*noise threshold is 0.009466
+Move to next.
+b_l[103][297] is 0.002846 	 1.5*noise threshold is 0.009227
+Move to next.
+b_l[112][297] is 0.008504 	 1.5*noise threshold is 0.00987
+Move to next.
+b_l[121][297] is 0.010305 	 1.5*noise threshold is 0.010023
+Yes human detected.
+b_l[130][297] is 0.007718 	 1.5*noise threshold is 0.007783
+Move to next.
+b_l[4][302] is 0.009029 	 1.5*noise threshold is 0.009081
+Move to next.
+b_l[13][302] is 0.007366 	 1.5*noise threshold is 0.009565
+Move to next.
+b_l[22][302] is 0.00172 	 1.5*noise threshold is 0.008408
+Move to next.
+b_l[31][302] is 0.009117 	 1.5*noise threshold is 0.008864
+Yes human detected.
+b_l[40][302] is 0.013421 	 1.5*noise threshold is 0.009917
+Yes human detected.
+b_l[49][302] is 0.010459 	 1.5*noise threshold is 0.011279
+Move to next.
+b_l[58][302] is 0.004247 	 1.5*noise threshold is 0.009419
+Move to next.
+b_l[67][302] is 0.001694 	 1.5*noise threshold is 0.007634
+Move to next.
+b_l[76][302] is 0.006078 	 1.5*noise threshold is 0.008271
+Move to next.
+b_l[85][302] is 0.006339 	 1.5*noise threshold is 0.007769
+Move to next.
+b_l[94][302] is 0.003276 	 1.5*noise threshold is 0.008915
+Move to next.
+b_l[103][302] is 0.003446 	 1.5*noise threshold is 0.010463
+Move to next.
+b_l[112][302] is 0.002092 	 1.5*noise threshold is 0.008426
+Move to next.
+b_l[121][302] is 0.004777 	 1.5*noise threshold is 0.00661
+Move to next.
+b_l[130][302] is 0.006393 	 1.5*noise threshold is 0.006541
+Move to next.
+b_l[4][307] is 0.004823 	 1.5*noise threshold is 0.008125
+Move to next.
+b_l[13][307] is 0.004345 	 1.5*noise threshold is 0.010689
+Move to next.
+b_l[22][307] is 0.00276 	 1.5*noise threshold is 0.010823
+Move to next.
+b_l[31][307] is 0.002721 	 1.5*noise threshold is 0.009516
+Move to next.
+b_l[40][307] is 0.002565 	 1.5*noise threshold is 0.01074
+Move to next.
+b_l[49][307] is 0.005221 	 1.5*noise threshold is 0.011461
+Move to next.
+b_l[58][307] is 0.005714 	 1.5*noise threshold is 0.010575
+Move to next.
+b_l[67][307] is 0.003288 	 1.5*noise threshold is 0.010005
+Move to next.
+b_l[76][307] is 0.004178 	 1.5*noise threshold is 0.011086
+Move to next.
+b_l[85][307] is 0.006784 	 1.5*noise threshold is 0.012105
+Move to next.
+b_l[94][307] is 0.008766 	 1.5*noise threshold is 0.011166
+Move to next.
+b_l[103][307] is 0.007394 	 1.5*noise threshold is 0.007353
+Yes human detected.
+b_l[112][307] is 0.002268 	 1.5*noise threshold is 0.005438
+Move to next.
+b_l[121][307] is 0.005667 	 1.5*noise threshold is 0.006613
+Move to next.
+b_l[130][307] is 0.008437 	 1.5*noise threshold is 0.007758
+Yes human detected.
+b_l[4][312] is 0.004959 	 1.5*noise threshold is 0.007381
+Move to next.
+b_l[13][312] is 0.002941 	 1.5*noise threshold is 0.007741
+Move to next.
+b_l[22][312] is 0.005569 	 1.5*noise threshold is 0.008407
+Move to next.
+b_l[31][312] is 0.014348 	 1.5*noise threshold is 0.013027
+Yes human detected.
+b_l[40][312] is 0.0151 	 1.5*noise threshold is 0.015166
+Move to next.
+b_l[49][312] is 0.00647 	 1.5*noise threshold is 0.01137
+Move to next.
+b_l[58][312] is 0.003442 	 1.5*noise threshold is 0.00772
+Move to next.
+b_l[67][312] is 0.004811 	 1.5*noise threshold is 0.00679
+Move to next.
+b_l[76][312] is 0.004038 	 1.5*noise threshold is 0.006443
+Move to next.
+b_l[85][312] is 0.00554 	 1.5*noise threshold is 0.005523
+Yes human detected.
+b_l[94][312] is 0.006364 	 1.5*noise threshold is 0.007761
+Move to next.
+b_l[103][312] is 0.015216 	 1.5*noise threshold is 0.01097
+Yes human detected.
+b_l[112][312] is 0.016376 	 1.5*noise threshold is 0.010979
+Yes human detected.
+b_l[121][312] is 0.009155 	 1.5*noise threshold is 0.00883
+Yes human detected.
+b_l[130][312] is 0.004183 	 1.5*noise threshold is 0.006916
+Move to next.
+b_l[4][317] is 0.005671 	 1.5*noise threshold is 0.010137
+Move to next.
+b_l[13][317] is 0.006952 	 1.5*noise threshold is 0.01101
+Move to next.
+b_l[22][317] is 0.007317 	 1.5*noise threshold is 0.010033
+Move to next.
+b_l[31][317] is 0.008778 	 1.5*noise threshold is 0.011233
+Move to next.
+b_l[40][317] is 0.007978 	 1.5*noise threshold is 0.011241
+Move to next.
+b_l[49][317] is 0.00884 	 1.5*noise threshold is 0.01021
+Move to next.
+b_l[58][317] is 0.013164 	 1.5*noise threshold is 0.013939
+Move to next.
+b_l[67][317] is 0.011822 	 1.5*noise threshold is 0.015717
+Move to next.
+b_l[76][317] is 0.006333 	 1.5*noise threshold is 0.014619
+Move to next.
+b_l[85][317] is 0.003241 	 1.5*noise threshold is 0.013823
+Move to next.
+b_l[94][317] is 0.005894 	 1.5*noise threshold is 0.012966
+Move to next.
+b_l[103][317] is 0.006795 	 1.5*noise threshold is 0.011973
+Move to next.
+b_l[112][317] is 0.00377 	 1.5*noise threshold is 0.009176
+Move to next.
+b_l[121][317] is 0.001918 	 1.5*noise threshold is 0.008205
+Move to next.
+b_l[130][317] is 0.006069 	 1.5*noise threshold is 0.00833
+Move to next.
+b_l[4][322] is 0.003681 	 1.5*noise threshold is 0.009273
+Move to next.
+b_l[13][322] is 0.006913 	 1.5*noise threshold is 0.00849
+Move to next.
+b_l[22][322] is 0.010482 	 1.5*noise threshold is 0.007723
+Yes human detected.
+b_l[31][322] is 0.010933 	 1.5*noise threshold is 0.008963
+Yes human detected.
+b_l[40][322] is 0.006901 	 1.5*noise threshold is 0.007553
+Move to next.
+b_l[49][322] is 0.001517 	 1.5*noise threshold is 0.007258
+Move to next.
+b_l[58][322] is 0.005052 	 1.5*noise threshold is 0.010284
+Move to next.
+b_l[67][322] is 0.007628 	 1.5*noise threshold is 0.011446
+Move to next.
+b_l[76][322] is 0.008621 	 1.5*noise threshold is 0.011464
+Move to next.
+b_l[85][322] is 0.00668 	 1.5*noise threshold is 0.009324
+Move to next.
+b_l[94][322] is 0.003332 	 1.5*noise threshold is 0.009273
+Move to next.
+b_l[103][322] is 0.007538 	 1.5*noise threshold is 0.009721
+Move to next.
+b_l[112][322] is 0.010055 	 1.5*noise threshold is 0.008684
+Yes human detected.
+b_l[121][322] is 0.007745 	 1.5*noise threshold is 0.005916
+Yes human detected.
+b_l[130][322] is 0.003196 	 1.5*noise threshold is 0.004673
+Move to next.
+b_l[4][327] is 0.005284 	 1.5*noise threshold is 0.007685
+Move to next.
+b_l[13][327] is 0.009248 	 1.5*noise threshold is 0.007645
+Yes human detected.
+b_l[22][327] is 0.013312 	 1.5*noise threshold is 0.010843
+Yes human detected.
+b_l[31][327] is 0.009695 	 1.5*noise threshold is 0.014667
+Move to next.
+b_l[40][327] is 0.004924 	 1.5*noise threshold is 0.016103
+Move to next.
+b_l[49][327] is 0.017851 	 1.5*noise threshold is 0.017428
+Yes human detected.
+b_l[58][327] is 0.020715 	 1.5*noise threshold is 0.014055
+Yes human detected.
+b_l[67][327] is 0.012131 	 1.5*noise threshold is 0.009141
+Yes human detected.
+b_l[76][327] is 0.006688 	 1.5*noise threshold is 0.009316
+Move to next.
+b_l[85][327] is 0.007493 	 1.5*noise threshold is 0.010853
+Move to next.
+b_l[94][327] is 0.004296 	 1.5*noise threshold is 0.011958
+Move to next.
+b_l[103][327] is 0.005562 	 1.5*noise threshold is 0.013505
+Move to next.
+b_l[112][327] is 0.006395 	 1.5*noise threshold is 0.013287
+Move to next.
+b_l[121][327] is 0.004621 	 1.5*noise threshold is 0.009917
+Move to next.
+b_l[130][327] is 0.001185 	 1.5*noise threshold is 0.004992
+Move to next.
+b_l[4][332] is 0.001189 	 1.5*noise threshold is 0.008971
+Move to next.
+b_l[13][332] is 0.004004 	 1.5*noise threshold is 0.009921
+Move to next.
+b_l[22][332] is 0.007273 	 1.5*noise threshold is 0.009157
+Move to next.
+b_l[31][332] is 0.010385 	 1.5*noise threshold is 0.011096
+Move to next.
+b_l[40][332] is 0.01518 	 1.5*noise threshold is 0.016275
+Move to next.
+b_l[49][332] is 0.014843 	 1.5*noise threshold is 0.017353
+Move to next.
+b_l[58][332] is 0.007851 	 1.5*noise threshold is 0.013517
+Move to next.
+b_l[67][332] is 0.013684 	 1.5*noise threshold is 0.012946
+Yes human detected.
+b_l[76][332] is 0.016064 	 1.5*noise threshold is 0.016143
+Move to next.
+b_l[85][332] is 0.010067 	 1.5*noise threshold is 0.015231
+Move to next.
+b_l[94][332] is 0.005124 	 1.5*noise threshold is 0.009891
+Move to next.
+b_l[103][332] is 0.003399 	 1.5*noise threshold is 0.006857
+Move to next.
+b_l[112][332] is 0.003152 	 1.5*noise threshold is 0.009209
+Move to next.
+b_l[121][332] is 0.00532 	 1.5*noise threshold is 0.011225
+Move to next.
+b_l[130][332] is 0.005759 	 1.5*noise threshold is 0.008324
+Move to next.
+b_l[4][337] is 0.002003 	 1.5*noise threshold is 0.008796
+Move to next.
+b_l[13][337] is 0.002481 	 1.5*noise threshold is 0.007996
+Move to next.
+b_l[22][337] is 0.00716 	 1.5*noise threshold is 0.009905
+Move to next.
+b_l[31][337] is 0.015067 	 1.5*noise threshold is 0.020364
+Move to next.
+b_l[40][337] is 0.019294 	 1.5*noise threshold is 0.028558
+Move to next.
+b_l[49][337] is 0.01399 	 1.5*noise threshold is 0.025218
+Move to next.
+b_l[58][337] is 0.003489 	 1.5*noise threshold is 0.013713
+Move to next.
+b_l[67][337] is 0.006826 	 1.5*noise threshold is 0.012358
+Move to next.
+b_l[76][337] is 0.013109 	 1.5*noise threshold is 0.017962
+Move to next.
+b_l[85][337] is 0.016372 	 1.5*noise threshold is 0.015756
+Yes human detected.
+b_l[94][337] is 0.015872 	 1.5*noise threshold is 0.012074
+Yes human detected.
+b_l[103][337] is 0.012003 	 1.5*noise threshold is 0.01073
+Yes human detected.
+b_l[112][337] is 0.007663 	 1.5*noise threshold is 0.008745
+Move to next.
+b_l[121][337] is 0.006143 	 1.5*noise threshold is 0.009565
+Move to next.
+b_l[130][337] is 0.006218 	 1.5*noise threshold is 0.009646
+Move to next.
+b_l[4][342] is 0.007117 	 1.5*noise threshold is 0.003766
+Yes human detected.
+b_l[13][342] is 0.007255 	 1.5*noise threshold is 0.006809
+Yes human detected.
+b_l[22][342] is 0.006006 	 1.5*noise threshold is 0.010196
+Move to next.
+b_l[31][342] is 0.011359 	 1.5*noise threshold is 0.01568
+Move to next.
+b_l[40][342] is 0.018331 	 1.5*noise threshold is 0.021771
+Move to next.
+b_l[49][342] is 0.019241 	 1.5*noise threshold is 0.021087
+Move to next.
+b_l[58][342] is 0.012506 	 1.5*noise threshold is 0.013145
+Move to next.
+b_l[67][342] is 0.004728 	 1.5*noise threshold is 0.007196
+Move to next.
+b_l[76][342] is 0.008391 	 1.5*noise threshold is 0.010018
+Move to next.
+b_l[85][342] is 0.008279 	 1.5*noise threshold is 0.011882
+Move to next.
+b_l[94][342] is 0.007556 	 1.5*noise threshold is 0.012066
+Move to next.
+b_l[103][342] is 0.00608 	 1.5*noise threshold is 0.010651
+Move to next.
+b_l[112][342] is 0.004964 	 1.5*noise threshold is 0.007696
+Move to next.
+b_l[121][342] is 0.00719 	 1.5*noise threshold is 0.005964
+Yes human detected.
+b_l[130][342] is 0.007241 	 1.5*noise threshold is 0.006256
+Yes human detected.
+b_l[4][347] is 0.005097 	 1.5*noise threshold is 0.005628
+Move to next.
+b_l[13][347] is 0.005632 	 1.5*noise threshold is 0.004815
+Yes human detected.
+b_l[22][347] is 0.007908 	 1.5*noise threshold is 0.005797
+Yes human detected.
+b_l[31][347] is 0.013359 	 1.5*noise threshold is 0.016843
+Move to next.
+b_l[40][347] is 0.016009 	 1.5*noise threshold is 0.0262
+Move to next.
+b_l[49][347] is 0.013989 	 1.5*noise threshold is 0.024495
+Move to next.
+b_l[58][347] is 0.007741 	 1.5*noise threshold is 0.014061
+Move to next.
+b_l[67][347] is 0.000457 	 1.5*noise threshold is 0.008004
+Move to next.
+b_l[76][347] is 0.005939 	 1.5*noise threshold is 0.010585
+Move to next.
+b_l[85][347] is 0.009365 	 1.5*noise threshold is 0.012184
+Move to next.
+b_l[94][347] is 0.011764 	 1.5*noise threshold is 0.013265
+Move to next.
+b_l[103][347] is 0.010374 	 1.5*noise threshold is 0.01244
+Move to next.
+b_l[112][347] is 0.005772 	 1.5*noise threshold is 0.008195
+Move to next.
+b_l[121][347] is 0.002481 	 1.5*noise threshold is 0.005766
+Move to next.
+b_l[130][347] is 0.003485 	 1.5*noise threshold is 0.006095
+Move to next.
+b_l[4][352] is 0.00729 	 1.5*noise threshold is 0.005687
+Yes human detected.
+b_l[13][352] is 0.008511 	 1.5*noise threshold is 0.007551
+Yes human detected.
+b_l[22][352] is 0.007958 	 1.5*noise threshold is 0.009768
+Move to next.
+b_l[31][352] is 0.010887 	 1.5*noise threshold is 0.016238
+Move to next.
+b_l[40][352] is 0.015997 	 1.5*noise threshold is 0.023929
+Move to next.
+b_l[49][352] is 0.014099 	 1.5*noise threshold is 0.022677
+Move to next.
+b_l[58][352] is 0.004397 	 1.5*noise threshold is 0.014834
+Move to next.
+b_l[67][352] is 0.006205 	 1.5*noise threshold is 0.015661
+Move to next.
+b_l[76][352] is 0.007727 	 1.5*noise threshold is 0.015053
+Move to next.
+b_l[85][352] is 0.005134 	 1.5*noise threshold is 0.011463
+Move to next.
+b_l[94][352] is 0.00462 	 1.5*noise threshold is 0.013887
+Move to next.
+b_l[103][352] is 0.006844 	 1.5*noise threshold is 0.013869
+Move to next.
+b_l[112][352] is 0.009529 	 1.5*noise threshold is 0.012961
+Move to next.
+b_l[121][352] is 0.008444 	 1.5*noise threshold is 0.013071
+Move to next.
+b_l[130][352] is 0.006454 	 1.5*noise threshold is 0.010156
+Move to next.
+b_l[4][357] is 0.00394 	 1.5*noise threshold is 0.00891
+Move to next.
+b_l[13][357] is 0.0016 	 1.5*noise threshold is 0.010202
+Move to next.
+b_l[22][357] is 0.00859 	 1.5*noise threshold is 0.013325
+Move to next.
+b_l[31][357] is 0.013378 	 1.5*noise threshold is 0.015121
+Move to next.
+b_l[40][357] is 0.012814 	 1.5*noise threshold is 0.011005
+Yes human detected.
+b_l[49][357] is 0.010239 	 1.5*noise threshold is 0.010881
+Move to next.
+b_l[58][357] is 0.01065 	 1.5*noise threshold is 0.013953
+Move to next.
+b_l[67][357] is 0.010019 	 1.5*noise threshold is 0.014259
+Move to next.
+b_l[76][357] is 0.006711 	 1.5*noise threshold is 0.0128
+Move to next.
+b_l[85][357] is 0.017336 	 1.5*noise threshold is 0.012802
+Yes human detected.
+b_l[94][357] is 0.024939 	 1.5*noise threshold is 0.012153
+Yes human detected.
+b_l[103][357] is 0.019333 	 1.5*noise threshold is 0.010313
+Yes human detected.
+b_l[112][357] is 0.00733 	 1.5*noise threshold is 0.007248
+Yes human detected.
+b_l[121][357] is 0.008149 	 1.5*noise threshold is 0.004145
+Yes human detected.
+b_l[130][357] is 0.007051 	 1.5*noise threshold is 0.003807
+Yes human detected.
+b_l[4][362] is 0.00403 	 1.5*noise threshold is 0.008314
+Move to next.
+b_l[13][362] is 0.002889 	 1.5*noise threshold is 0.006748
+Move to next.
+b_l[22][362] is 0.011719 	 1.5*noise threshold is 0.00771
+Yes human detected.
+b_l[31][362] is 0.015116 	 1.5*noise threshold is 0.010933
+Yes human detected.
+b_l[40][362] is 0.010594 	 1.5*noise threshold is 0.010853
+Move to next.
+b_l[49][362] is 0.010925 	 1.5*noise threshold is 0.011874
+Move to next.
+b_l[58][362] is 0.0143 	 1.5*noise threshold is 0.012573
+Yes human detected.
+b_l[67][362] is 0.009961 	 1.5*noise threshold is 0.01001
+Move to next.
+b_l[76][362] is 0.002762 	 1.5*noise threshold is 0.007429
+Move to next.
+b_l[85][362] is 0.009372 	 1.5*noise threshold is 0.009684
+Move to next.
+b_l[94][362] is 0.016823 	 1.5*noise threshold is 0.015479
+Yes human detected.
+b_l[103][362] is 0.020347 	 1.5*noise threshold is 0.017628
+Yes human detected.
+b_l[112][362] is 0.018142 	 1.5*noise threshold is 0.0145
+Yes human detected.
+b_l[121][362] is 0.010801 	 1.5*noise threshold is 0.010052
+Yes human detected.
+b_l[130][362] is 0.002367 	 1.5*noise threshold is 0.00692
+Move to next.
+b_l[4][367] is 0.010104 	 1.5*noise threshold is 0.009322
+Yes human detected.
+b_l[13][367] is 0.010974 	 1.5*noise threshold is 0.009576
+Yes human detected.
+b_l[22][367] is 0.00889 	 1.5*noise threshold is 0.008852
+Yes human detected.
+b_l[31][367] is 0.004934 	 1.5*noise threshold is 0.008543
+Move to next.
+b_l[40][367] is 0.007348 	 1.5*noise threshold is 0.009971
+Move to next.
+b_l[49][367] is 0.012944 	 1.5*noise threshold is 0.011568
+Yes human detected.
+b_l[58][367] is 0.012861 	 1.5*noise threshold is 0.010432
+Yes human detected.
+b_l[67][367] is 0.008009 	 1.5*noise threshold is 0.010988
+Move to next.
+b_l[76][367] is 0.00166 	 1.5*noise threshold is 0.014653
+Move to next.
+b_l[85][367] is 0.005159 	 1.5*noise threshold is 0.013292
+Move to next.
+b_l[94][367] is 0.006235 	 1.5*noise threshold is 0.010398
+Move to next.
+b_l[103][367] is 0.004882 	 1.5*noise threshold is 0.009787
+Move to next.
+b_l[112][367] is 0.007038 	 1.5*noise threshold is 0.009832
+Move to next.
+b_l[121][367] is 0.007325 	 1.5*noise threshold is 0.00948
+Move to next.
+b_l[130][367] is 0.004922 	 1.5*noise threshold is 0.006955
+Move to next.
+b_l[4][372] is 0.004512 	 1.5*noise threshold is 0.009088
+Move to next.
+b_l[13][372] is 0.003358 	 1.5*noise threshold is 0.010411
+Move to next.
+b_l[22][372] is 0.002131 	 1.5*noise threshold is 0.008499
+Move to next.
+b_l[31][372] is 0.003546 	 1.5*noise threshold is 0.006283
+Move to next.
+b_l[40][372] is 0.003982 	 1.5*noise threshold is 0.010004
+Move to next.
+b_l[49][372] is 0.005028 	 1.5*noise threshold is 0.010837
+Move to next.
+b_l[58][372] is 0.004813 	 1.5*noise threshold is 0.007718
+Move to next.
+b_l[67][372] is 0.00722 	 1.5*noise threshold is 0.007605
+Move to next.
+b_l[76][372] is 0.012588 	 1.5*noise threshold is 0.009419
+Yes human detected.
+b_l[85][372] is 0.013238 	 1.5*noise threshold is 0.009288
+Yes human detected.
+b_l[94][372] is 0.009387 	 1.5*noise threshold is 0.009669
+Move to next.
+b_l[103][372] is 0.006403 	 1.5*noise threshold is 0.00944
+Move to next.
+b_l[112][372] is 0.005653 	 1.5*noise threshold is 0.010189
+Move to next.
+b_l[121][372] is 0.00682 	 1.5*noise threshold is 0.008973
+Move to next.
+b_l[130][372] is 0.006873 	 1.5*noise threshold is 0.007358
+Move to next.
+b_l[4][377] is 0.006366 	 1.5*noise threshold is 0.011254
+Move to next.
+b_l[13][377] is 0.006506 	 1.5*noise threshold is 0.009509
+Move to next.
+b_l[22][377] is 0.008236 	 1.5*noise threshold is 0.007012
+Yes human detected.
+b_l[31][377] is 0.011619 	 1.5*noise threshold is 0.007469
+Yes human detected.
+b_l[40][377] is 0.011523 	 1.5*noise threshold is 0.008182
+Yes human detected.
+b_l[49][377] is 0.007933 	 1.5*noise threshold is 0.009075
+Move to next.
+b_l[58][377] is 0.007904 	 1.5*noise threshold is 0.009192
+Move to next.
+b_l[67][377] is 0.009512 	 1.5*noise threshold is 0.008412
+Yes human detected.
+b_l[76][377] is 0.011385 	 1.5*noise threshold is 0.007965
+Yes human detected.
+b_l[85][377] is 0.010992 	 1.5*noise threshold is 0.00976
+Yes human detected.
+b_l[94][377] is 0.005926 	 1.5*noise threshold is 0.012284
+Move to next.
+b_l[103][377] is 0.001867 	 1.5*noise threshold is 0.01083
+Move to next.
+b_l[112][377] is 0.002946 	 1.5*noise threshold is 0.008839
+Move to next.
+b_l[121][377] is 0.002636 	 1.5*noise threshold is 0.007012
+Move to next.
+b_l[130][377] is 0.002497 	 1.5*noise threshold is 0.005174
+Move to next.
+b_l[4][382] is 0.003228 	 1.5*noise threshold is 0.010217
+Move to next.
+b_l[13][382] is 0.00276 	 1.5*noise threshold is 0.011509
+Move to next.
+b_l[22][382] is 0.011729 	 1.5*noise threshold is 0.017606
+Move to next.
+b_l[31][382] is 0.020228 	 1.5*noise threshold is 0.025419
+Move to next.
+b_l[40][382] is 0.01831 	 1.5*noise threshold is 0.0224
+Move to next.
+b_l[49][382] is 0.006544 	 1.5*noise threshold is 0.010153
+Move to next.
+b_l[58][382] is 0.003973 	 1.5*noise threshold is 0.010381
+Move to next.
+b_l[67][382] is 0.001441 	 1.5*noise threshold is 0.012445
+Move to next.
+b_l[76][382] is 0.004525 	 1.5*noise threshold is 0.010852
+Move to next.
+b_l[85][382] is 0.005306 	 1.5*noise threshold is 0.008184
+Move to next.
+b_l[94][382] is 0.00785 	 1.5*noise threshold is 0.01026
+Move to next.
+b_l[103][382] is 0.012694 	 1.5*noise threshold is 0.013895
+Move to next.
+b_l[112][382] is 0.015054 	 1.5*noise threshold is 0.014737
+Yes human detected.
+b_l[121][382] is 0.012756 	 1.5*noise threshold is 0.010739
+Yes human detected.
+b_l[130][382] is 0.007659 	 1.5*noise threshold is 0.0063
+Yes human detected.
+b_l[4][387] is 0.005463 	 1.5*noise threshold is 0.00638
+Move to next.
+b_l[13][387] is 0.007514 	 1.5*noise threshold is 0.01124
+Move to next.
+b_l[22][387] is 0.011975 	 1.5*noise threshold is 0.020121
+Move to next.
+b_l[31][387] is 0.020356 	 1.5*noise threshold is 0.028941
+Move to next.
+b_l[40][387] is 0.024136 	 1.5*noise threshold is 0.028094
+Move to next.
+b_l[49][387] is 0.015992 	 1.5*noise threshold is 0.019223
+Move to next.
+b_l[58][387] is 0.008728 	 1.5*noise threshold is 0.017903
+Move to next.
+b_l[67][387] is 0.014457 	 1.5*noise threshold is 0.016404
+Move to next.
+b_l[76][387] is 0.017065 	 1.5*noise threshold is 0.017429
+Move to next.
+b_l[85][387] is 0.01527 	 1.5*noise threshold is 0.019384
+Move to next.
+b_l[94][387] is 0.013473 	 1.5*noise threshold is 0.019297
+Move to next.
+b_l[103][387] is 0.01301 	 1.5*noise threshold is 0.017637
+Move to next.
+b_l[112][387] is 0.00772 	 1.5*noise threshold is 0.012968
+Move to next.
+b_l[121][387] is 0.001102 	 1.5*noise threshold is 0.007583
+Move to next.
+b_l[130][387] is 0.002672 	 1.5*noise threshold is 0.004282
+Move to next.
+b_l[4][392] is 0.00709 	 1.5*noise threshold is 0.00875
+Move to next.
+b_l[13][392] is 0.00759 	 1.5*noise threshold is 0.008665
+Move to next.
+b_l[22][392] is 0.014662 	 1.5*noise threshold is 0.010851
+Yes human detected.
+b_l[31][392] is 0.029342 	 1.5*noise threshold is 0.024985
+Yes human detected.
+b_l[40][392] is 0.031227 	 1.5*noise threshold is 0.032562
+Move to next.
+b_l[49][392] is 0.014402 	 1.5*noise threshold is 0.02284
+Move to next.
+b_l[58][392] is 0.007713 	 1.5*noise threshold is 0.011705
+Move to next.
+b_l[67][392] is 0.020664 	 1.5*noise threshold is 0.016553
+Yes human detected.
+b_l[76][392] is 0.022513 	 1.5*noise threshold is 0.019226
+Yes human detected.
+b_l[85][392] is 0.018232 	 1.5*noise threshold is 0.016181
+Yes human detected.
+b_l[94][392] is 0.012655 	 1.5*noise threshold is 0.011421
+Yes human detected.
+b_l[103][392] is 0.010124 	 1.5*noise threshold is 0.011562
+Move to next.
+b_l[112][392] is 0.010474 	 1.5*noise threshold is 0.014154
+Move to next.
+b_l[121][392] is 0.007893 	 1.5*noise threshold is 0.012969
+Move to next.
+b_l[130][392] is 0.002855 	 1.5*noise threshold is 0.008248
+Move to next.
+b_l[4][397] is 0.006111 	 1.5*noise threshold is 0.009253
+Move to next.
+b_l[13][397] is 0.001218 	 1.5*noise threshold is 0.010849
+Move to next.
+b_l[22][397] is 0.012171 	 1.5*noise threshold is 0.013605
+Move to next.
+b_l[31][397] is 0.024345 	 1.5*noise threshold is 0.021685
+Yes human detected.
+b_l[40][397] is 0.026771 	 1.5*noise threshold is 0.025672
+Yes human detected.
+b_l[49][397] is 0.014619 	 1.5*noise threshold is 0.015469
+Move to next.
+b_l[58][397] is 0.003145 	 1.5*noise threshold is 0.01051
+Move to next.
+b_l[67][397] is 0.013304 	 1.5*noise threshold is 0.019151
+Move to next.
+b_l[76][397] is 0.014443 	 1.5*noise threshold is 0.022512
+Move to next.
+b_l[85][397] is 0.012693 	 1.5*noise threshold is 0.023341
+Move to next.
+b_l[94][397] is 0.012593 	 1.5*noise threshold is 0.021662
+Move to next.
+b_l[103][397] is 0.012974 	 1.5*noise threshold is 0.015214
+Move to next.
+b_l[112][397] is 0.010718 	 1.5*noise threshold is 0.00873
+Yes human detected.
+b_l[121][397] is 0.005602 	 1.5*noise threshold is 0.008798
+Move to next.
+b_l[130][397] is 0.001443 	 1.5*noise threshold is 0.008557
+Move to next.
+b_l[4][402] is 0.003933 	 1.5*noise threshold is 0.008183
+Move to next.
+b_l[13][402] is 0.004847 	 1.5*noise threshold is 0.009716
+Move to next.
+b_l[22][402] is 0.003669 	 1.5*noise threshold is 0.012118
+Move to next.
+b_l[31][402] is 0.015397 	 1.5*noise threshold is 0.016037
+Move to next.
+b_l[40][402] is 0.019991 	 1.5*noise threshold is 0.016464
+Yes human detected.
+b_l[49][402] is 0.012383 	 1.5*noise threshold is 0.013658
+Move to next.
+b_l[58][402] is 0.001263 	 1.5*noise threshold is 0.01629
+Move to next.
+b_l[67][402] is 0.007671 	 1.5*noise threshold is 0.01924
+Move to next.
+b_l[76][402] is 0.010232 	 1.5*noise threshold is 0.020232
+Move to next.
+b_l[85][402] is 0.00964 	 1.5*noise threshold is 0.019194
+Move to next.
+b_l[94][402] is 0.010186 	 1.5*noise threshold is 0.014908
+Move to next.
+b_l[103][402] is 0.010541 	 1.5*noise threshold is 0.00881
+Yes human detected.
+b_l[112][402] is 0.008953 	 1.5*noise threshold is 0.00654
+Yes human detected.
+b_l[121][402] is 0.005437 	 1.5*noise threshold is 0.007168
+Move to next.
+b_l[130][402] is 0.001549 	 1.5*noise threshold is 0.006332
+Move to next.
+b_l[4][407] is 0.002943 	 1.5*noise threshold is 0.006469
+Move to next.
+b_l[13][407] is 0.003405 	 1.5*noise threshold is 0.005995
+Move to next.
+b_l[22][407] is 0.003754 	 1.5*noise threshold is 0.009986
+Move to next.
+b_l[31][407] is 0.012801 	 1.5*noise threshold is 0.020203
+Move to next.
+b_l[40][407] is 0.016783 	 1.5*noise threshold is 0.020525
+Move to next.
+b_l[49][407] is 0.010264 	 1.5*noise threshold is 0.010473
+Move to next.
+b_l[58][407] is 0.004244 	 1.5*noise threshold is 0.012623
+Move to next.
+b_l[67][407] is 0.005304 	 1.5*noise threshold is 0.016003
+Move to next.
+b_l[76][407] is 0.004398 	 1.5*noise threshold is 0.015864
+Move to next.
+b_l[85][407] is 0.009106 	 1.5*noise threshold is 0.014946
+Move to next.
+b_l[94][407] is 0.010233 	 1.5*noise threshold is 0.01177
+Move to next.
+b_l[103][407] is 0.007145 	 1.5*noise threshold is 0.008673
+Move to next.
+b_l[112][407] is 0.005969 	 1.5*noise threshold is 0.007317
+Move to next.
+b_l[121][407] is 0.005424 	 1.5*noise threshold is 0.006258
+Move to next.
+b_l[130][407] is 0.003655 	 1.5*noise threshold is 0.00589
+Move to next.
+b_l[4][412] is 0.005708 	 1.5*noise threshold is 0.007713
+Move to next.
+b_l[13][412] is 0.006128 	 1.5*noise threshold is 0.007438
+Move to next.
+b_l[22][412] is 0.006683 	 1.5*noise threshold is 0.011056
+Move to next.
+b_l[31][412] is 0.004963 	 1.5*noise threshold is 0.014474
+Move to next.
+b_l[40][412] is 0.003141 	 1.5*noise threshold is 0.013551
+Move to next.
+b_l[49][412] is 0.006795 	 1.5*noise threshold is 0.010249
+Move to next.
+b_l[58][412] is 0.012384 	 1.5*noise threshold is 0.009209
+Yes human detected.
+b_l[67][412] is 0.017285 	 1.5*noise threshold is 0.010945
+Yes human detected.
+b_l[76][412] is 0.014839 	 1.5*noise threshold is 0.011792
+Yes human detected.
+b_l[85][412] is 0.006026 	 1.5*noise threshold is 0.008339
+Move to next.
+b_l[94][412] is 0.008634 	 1.5*noise threshold is 0.01208
+Move to next.
+b_l[103][412] is 0.008302 	 1.5*noise threshold is 0.014236
+Move to next.
+b_l[112][412] is 0.004318 	 1.5*noise threshold is 0.011929
+Move to next.
+b_l[121][412] is 0.005821 	 1.5*noise threshold is 0.00951
+Move to next.
+b_l[130][412] is 0.005569 	 1.5*noise threshold is 0.006933
+Move to next.
+b_l[4][417] is 0.005215 	 1.5*noise threshold is 0.005278
+Move to next.
+b_l[13][417] is 0.002026 	 1.5*noise threshold is 0.005712
+Move to next.
+b_l[22][417] is 0.003357 	 1.5*noise threshold is 0.00748
+Move to next.
+b_l[31][417] is 0.00368 	 1.5*noise threshold is 0.010027
+Move to next.
+b_l[40][417] is 0.009283 	 1.5*noise threshold is 0.012998
+Move to next.
+b_l[49][417] is 0.01397 	 1.5*noise threshold is 0.017863
+Move to next.
+b_l[58][417] is 0.011748 	 1.5*noise threshold is 0.018865
+Move to next.
+b_l[67][417] is 0.005504 	 1.5*noise threshold is 0.015971
+Move to next.
+b_l[76][417] is 0.017582 	 1.5*noise threshold is 0.016417
+Yes human detected.
+b_l[85][417] is 0.024368 	 1.5*noise threshold is 0.018964
+Yes human detected.
+b_l[94][417] is 0.021239 	 1.5*noise threshold is 0.018285
+Yes human detected.
+b_l[103][417] is 0.015537 	 1.5*noise threshold is 0.01532
+Yes human detected.
+b_l[112][417] is 0.01044 	 1.5*noise threshold is 0.01366
+Move to next.
+b_l[121][417] is 0.005643 	 1.5*noise threshold is 0.011314
+Move to next.
+b_l[130][417] is 0.007546 	 1.5*noise threshold is 0.009203
+Move to next.
+b_l[4][422] is 0.002927 	 1.5*noise threshold is 0.003982
+Move to next.
+b_l[13][422] is 0.004315 	 1.5*noise threshold is 0.005633
+Move to next.
+b_l[22][422] is 0.007187 	 1.5*noise threshold is 0.011097
+Move to next.
+b_l[31][422] is 0.013836 	 1.5*noise threshold is 0.017003
+Move to next.
+b_l[40][422] is 0.015872 	 1.5*noise threshold is 0.019515
+Move to next.
+b_l[49][422] is 0.011538 	 1.5*noise threshold is 0.01472
+Move to next.
+b_l[58][422] is 0.010692 	 1.5*noise threshold is 0.010809
+Move to next.
+b_l[67][422] is 0.015022 	 1.5*noise threshold is 0.011902
+Yes human detected.
+b_l[76][422] is 0.018511 	 1.5*noise threshold is 0.013722
+Yes human detected.
+b_l[85][422] is 0.013437 	 1.5*noise threshold is 0.01406
+Move to next.
+b_l[94][422] is 0.005529 	 1.5*noise threshold is 0.011682
+Move to next.
+b_l[103][422] is 0.010454 	 1.5*noise threshold is 0.010335
+Yes human detected.
+b_l[112][422] is 0.007355 	 1.5*noise threshold is 0.006989
+Yes human detected.
+b_l[121][422] is 0.001322 	 1.5*noise threshold is 0.003139
+Move to next.
+b_l[130][422] is 0.003834 	 1.5*noise threshold is 0.003548
+Yes human detected.
+b_l[4][427] is 0.009045 	 1.5*noise threshold is 0.008291
+Yes human detected.
+b_l[13][427] is 0.010188 	 1.5*noise threshold is 0.009289
+Yes human detected.
+b_l[22][427] is 0.011546 	 1.5*noise threshold is 0.015459
+Move to next.
+b_l[31][427] is 0.009797 	 1.5*noise threshold is 0.023214
+Move to next.
+b_l[40][427] is 0.002304 	 1.5*noise threshold is 0.020664
+Move to next.
+b_l[49][427] is 0.014107 	 1.5*noise threshold is 0.017343
+Move to next.
+b_l[58][427] is 0.013076 	 1.5*noise threshold is 0.017715
+Move to next.
+b_l[67][427] is 0.003536 	 1.5*noise threshold is 0.0162
+Move to next.
+b_l[76][427] is 0.0105 	 1.5*noise threshold is 0.013998
+Move to next.
+b_l[85][427] is 0.008847 	 1.5*noise threshold is 0.01548
+Move to next.
+b_l[94][427] is 0.003197 	 1.5*noise threshold is 0.020298
+Move to next.
+b_l[103][427] is 0.007023 	 1.5*noise threshold is 0.019418
+Move to next.
+b_l[112][427] is 0.008432 	 1.5*noise threshold is 0.012786
+Move to next.
+b_l[121][427] is 0.006034 	 1.5*noise threshold is 0.008303
+Move to next.
+b_l[130][427] is 0.002254 	 1.5*noise threshold is 0.008017
+Move to next.
+b_l[4][432] is 0.002768 	 1.5*noise threshold is 0.009152
+Move to next.
+b_l[13][432] is 0.000271 	 1.5*noise threshold is 0.009533
+Move to next.
+b_l[22][432] is 0.008782 	 1.5*noise threshold is 0.016336
+Move to next.
+b_l[31][432] is 0.021143 	 1.5*noise threshold is 0.035844
+Move to next.
+b_l[40][432] is 0.026021 	 1.5*noise threshold is 0.043464
+Move to next.
+b_l[49][432] is 0.019524 	 1.5*noise threshold is 0.032471
+Move to next.
+b_l[58][432] is 0.022267 	 1.5*noise threshold is 0.020515
+Yes human detected.
+b_l[67][432] is 0.031351 	 1.5*noise threshold is 0.019532
+Yes human detected.
+b_l[76][432] is 0.023676 	 1.5*noise threshold is 0.01648
+Yes human detected.
+b_l[85][432] is 0.004631 	 1.5*noise threshold is 0.014157
+Move to next.
+b_l[94][432] is 0.01362 	 1.5*noise threshold is 0.016195
+Move to next.
+b_l[103][432] is 0.021178 	 1.5*noise threshold is 0.019588
+Yes human detected.
+b_l[112][432] is 0.021413 	 1.5*noise threshold is 0.022572
+Move to next.
+b_l[121][432] is 0.017339 	 1.5*noise threshold is 0.021765
+Move to next.
+b_l[130][432] is 0.012417 	 1.5*noise threshold is 0.016197
+Move to next.
+b_l[4][437] is 0.006205 	 1.5*noise threshold is 0.008652
+Move to next.
+b_l[13][437] is 0.004802 	 1.5*noise threshold is 0.009904
+Move to next.
+b_l[22][437] is 0.009653 	 1.5*noise threshold is 0.020342
+Move to next.
+b_l[31][437] is 0.024177 	 1.5*noise threshold is 0.037008
+Move to next.
+b_l[40][437] is 0.028688 	 1.5*noise threshold is 0.039938
+Move to next.
+b_l[49][437] is 0.014027 	 1.5*noise threshold is 0.022817
+Move to next.
+b_l[58][437] is 0.006632 	 1.5*noise threshold is 0.007551
+Move to next.
+b_l[67][437] is 0.011679 	 1.5*noise threshold is 0.011171
+Yes human detected.
+b_l[76][437] is 0.009024 	 1.5*noise threshold is 0.014929
+Move to next.
+b_l[85][437] is 0.011558 	 1.5*noise threshold is 0.020798
+Move to next.
+b_l[94][437] is 0.016722 	 1.5*noise threshold is 0.024455
+Move to next.
+b_l[103][437] is 0.014524 	 1.5*noise threshold is 0.020912
+Move to next.
+b_l[112][437] is 0.010484 	 1.5*noise threshold is 0.014275
+Move to next.
+b_l[121][437] is 0.012167 	 1.5*noise threshold is 0.011626
+Yes human detected.
+b_l[130][437] is 0.009317 	 1.5*noise threshold is 0.008371
+Yes human detected.
+b_l[4][442] is 0.002273 	 1.5*noise threshold is 0.00917
+Move to next.
+b_l[13][442] is 0.001733 	 1.5*noise threshold is 0.009122
+Move to next.
+b_l[22][442] is 0.003412 	 1.5*noise threshold is 0.009429
+Move to next.
+b_l[31][442] is 0.009422 	 1.5*noise threshold is 0.012805
+Move to next.
+b_l[40][442] is 0.012649 	 1.5*noise threshold is 0.014566
+Move to next.
+b_l[49][442] is 0.007568 	 1.5*noise threshold is 0.013311
+Move to next.
+b_l[58][442] is 0.004656 	 1.5*noise threshold is 0.012356
+Move to next.
+b_l[67][442] is 0.013142 	 1.5*noise threshold is 0.014685
+Move to next.
+b_l[76][442] is 0.018012 	 1.5*noise threshold is 0.017526
+Yes human detected.
+b_l[85][442] is 0.016836 	 1.5*noise threshold is 0.021646
+Move to next.
+b_l[94][442] is 0.011597 	 1.5*noise threshold is 0.019488
+Move to next.
+b_l[103][442] is 0.006511 	 1.5*noise threshold is 0.010393
+Move to next.
+b_l[112][442] is 0.000612 	 1.5*noise threshold is 0.010914
+Move to next.
+b_l[121][442] is 0.00562 	 1.5*noise threshold is 0.013824
+Move to next.
+b_l[130][442] is 0.007566 	 1.5*noise threshold is 0.010719
+Move to next.
+b_l[4][447] is 0.009721 	 1.5*noise threshold is 0.009711
+Yes human detected.
+b_l[13][447] is 0.013205 	 1.5*noise threshold is 0.010768
+Yes human detected.
+b_l[22][447] is 0.016675 	 1.5*noise threshold is 0.014039
+Yes human detected.
+b_l[31][447] is 0.021915 	 1.5*noise threshold is 0.024161
+Move to next.
+b_l[40][447] is 0.026032 	 1.5*noise threshold is 0.031062
+Move to next.
+b_l[49][447] is 0.027692 	 1.5*noise threshold is 0.028246
+Move to next.
+b_l[58][447] is 0.02603 	 1.5*noise threshold is 0.017792
+Yes human detected.
+b_l[67][447] is 0.016922 	 1.5*noise threshold is 0.013159
+Yes human detected.
+b_l[76][447] is 0.018328 	 1.5*noise threshold is 0.021818
+Move to next.
+b_l[85][447] is 0.027154 	 1.5*noise threshold is 0.030615
+Move to next.
+b_l[94][447] is 0.029262 	 1.5*noise threshold is 0.033089
+Move to next.
+b_l[103][447] is 0.023991 	 1.5*noise threshold is 0.025068
+Move to next.
+b_l[112][447] is 0.01573 	 1.5*noise threshold is 0.013959
+Yes human detected.
+b_l[121][447] is 0.009392 	 1.5*noise threshold is 0.011412
+Move to next.
+b_l[130][447] is 0.005358 	 1.5*noise threshold is 0.009371
+Move to next.
+b_l[4][452] is 0.002047 	 1.5*noise threshold is 0.007276
+Move to next.
+b_l[13][452] is 0.001909 	 1.5*noise threshold is 0.006831
+Move to next.
+b_l[22][452] is 0.007653 	 1.5*noise threshold is 0.014177
+Move to next.
+b_l[31][452] is 0.014125 	 1.5*noise threshold is 0.025424
+Move to next.
+b_l[40][452] is 0.012633 	 1.5*noise threshold is 0.025447
+Move to next.
+b_l[49][452] is 0.005785 	 1.5*noise threshold is 0.019109
+Move to next.
+b_l[58][452] is 0.012143 	 1.5*noise threshold is 0.023202
+Move to next.
+b_l[67][452] is 0.008115 	 1.5*noise threshold is 0.020759
+Move to next.
+b_l[76][452] is 0.002553 	 1.5*noise threshold is 0.015735
+Move to next.
+b_l[85][452] is 0.003207 	 1.5*noise threshold is 0.013921
+Move to next.
+b_l[94][452] is 0.009144 	 1.5*noise threshold is 0.015334
+Move to next.
+b_l[103][452] is 0.013025 	 1.5*noise threshold is 0.014948
+Move to next.
+b_l[112][452] is 0.010794 	 1.5*noise threshold is 0.014022
+Move to next.
+b_l[121][452] is 0.005282 	 1.5*noise threshold is 0.011968
+Move to next.
+b_l[130][452] is 0.003108 	 1.5*noise threshold is 0.008322
+Move to next.
+b_l[4][457] is 0.004564 	 1.5*noise threshold is 0.006879
+Move to next.
+b_l[13][457] is 0.003338 	 1.5*noise threshold is 0.006531
+Move to next.
+b_l[22][457] is 0.003432 	 1.5*noise threshold is 0.016659
+Move to next.
+b_l[31][457] is 0.005967 	 1.5*noise threshold is 0.033514
+Move to next.
+b_l[40][457] is 0.011795 	 1.5*noise threshold is 0.037484
+Move to next.
+b_l[49][457] is 0.019756 	 1.5*noise threshold is 0.029401
+Move to next.
+b_l[58][457] is 0.019968 	 1.5*noise threshold is 0.024815
+Move to next.
+b_l[67][457] is 0.011094 	 1.5*noise threshold is 0.01713
+Move to next.
+b_l[76][457] is 0.004898 	 1.5*noise threshold is 0.011934
+Move to next.
+b_l[85][457] is 0.005705 	 1.5*noise threshold is 0.015246
+Move to next.
+b_l[94][457] is 0.008175 	 1.5*noise threshold is 0.016458
+Move to next.
+b_l[103][457] is 0.012103 	 1.5*noise threshold is 0.018776
+Move to next.
+b_l[112][457] is 0.016776 	 1.5*noise threshold is 0.021908
+Move to next.
+b_l[121][457] is 0.01726 	 1.5*noise threshold is 0.020173
+Move to next.
+b_l[130][457] is 0.010667 	 1.5*noise threshold is 0.013481
+Move to next.
+b_l[4][462] is 0.008197 	 1.5*noise threshold is 0.010199
+Move to next.
+b_l[13][462] is 0.004617 	 1.5*noise threshold is 0.007688
+Move to next.
+b_l[22][462] is 0.004367 	 1.5*noise threshold is 0.012967
+Move to next.
+b_l[31][462] is 0.009486 	 1.5*noise threshold is 0.024625
+Move to next.
+b_l[40][462] is 0.005001 	 1.5*noise threshold is 0.026783
+Move to next.
+b_l[49][462] is 0.006584 	 1.5*noise threshold is 0.022322
+Move to next.
+b_l[58][462] is 0.006218 	 1.5*noise threshold is 0.016732
+Move to next.
+b_l[67][462] is 0.009668 	 1.5*noise threshold is 0.008699
+Yes human detected.
+b_l[76][462] is 0.017016 	 1.5*noise threshold is 0.016883
+Yes human detected.
+b_l[85][462] is 0.014747 	 1.5*noise threshold is 0.02255
+Move to next.
+b_l[94][462] is 0.013545 	 1.5*noise threshold is 0.020143
+Move to next.
+b_l[103][462] is 0.012845 	 1.5*noise threshold is 0.014677
+Move to next.
+b_l[112][462] is 0.009304 	 1.5*noise threshold is 0.010145
+Move to next.
+b_l[121][462] is 0.011413 	 1.5*noise threshold is 0.011535
+Move to next.
+b_l[130][462] is 0.0109 	 1.5*noise threshold is 0.013331
+Move to next.
+b_l[4][467] is 0.014196 	 1.5*noise threshold is 0.006277
+Yes human detected.
+b_l[13][467] is 0.012616 	 1.5*noise threshold is 0.008756
+Yes human detected.
+b_l[22][467] is 0.008361 	 1.5*noise threshold is 0.014567
+Move to next.
+b_l[31][467] is 0.013798 	 1.5*noise threshold is 0.02235
+Move to next.
+b_l[40][467] is 0.023883 	 1.5*noise threshold is 0.028147
+Move to next.
+b_l[49][467] is 0.020266 	 1.5*noise threshold is 0.027704
+Move to next.
+b_l[58][467] is 0.004176 	 1.5*noise threshold is 0.026301
+Move to next.
+b_l[67][467] is 0.03147 	 1.5*noise threshold is 0.036412
+Move to next.
+b_l[76][467] is 0.039526 	 1.5*noise threshold is 0.040024
+Move to next.
+b_l[85][467] is 0.026226 	 1.5*noise threshold is 0.03361
+Move to next.
+b_l[94][467] is 0.005645 	 1.5*noise threshold is 0.023934
+Move to next.
+b_l[103][467] is 0.009541 	 1.5*noise threshold is 0.02165
+Move to next.
+b_l[112][467] is 0.014437 	 1.5*noise threshold is 0.022056
+Move to next.
+b_l[121][467] is 0.011244 	 1.5*noise threshold is 0.015494
+Move to next.
+b_l[130][467] is 0.005627 	 1.5*noise threshold is 0.007651
+Move to next.
+b_l[4][472] is 0.002195 	 1.5*noise threshold is 0.011424
+Move to next.
+b_l[13][472] is 0.00218 	 1.5*noise threshold is 0.011163
+Move to next.
+b_l[22][472] is 0.012005 	 1.5*noise threshold is 0.014488
+Move to next.
+b_l[31][472] is 0.027064 	 1.5*noise threshold is 0.022447
+Yes human detected.
+b_l[40][472] is 0.030902 	 1.5*noise threshold is 0.021409
+Yes human detected.
+b_l[49][472] is 0.028322 	 1.5*noise threshold is 0.018891
+Yes human detected.
+b_l[58][472] is 0.027048 	 1.5*noise threshold is 0.02405
+Yes human detected.
+b_l[67][472] is 0.02004 	 1.5*noise threshold is 0.027671
+Move to next.
+b_l[76][472] is 0.0179 	 1.5*noise threshold is 0.031396
+Move to next.
+b_l[85][472] is 0.015601 	 1.5*noise threshold is 0.028711
+Move to next.
+b_l[94][472] is 0.004337 	 1.5*noise threshold is 0.0193
+Move to next.
+b_l[103][472] is 0.013661 	 1.5*noise threshold is 0.018421
+Move to next.
+b_l[112][472] is 0.024843 	 1.5*noise threshold is 0.019912
+Yes human detected.
+b_l[121][472] is 0.026143 	 1.5*noise threshold is 0.022486
+Yes human detected.
+b_l[130][472] is 0.02158 	 1.5*noise threshold is 0.020157
+Yes human detected.
+b_l[4][477] is 0.006424 	 1.5*noise threshold is 0.012463
+Move to next.
+b_l[13][477] is 0.008018 	 1.5*noise threshold is 0.010863
+Move to next.
+b_l[22][477] is 0.010619 	 1.5*noise threshold is 0.013578
+Move to next.
+b_l[31][477] is 0.013406 	 1.5*noise threshold is 0.025753
+Move to next.
+b_l[40][477] is 0.013428 	 1.5*noise threshold is 0.03325
+Move to next.
+b_l[49][477] is 0.018707 	 1.5*noise threshold is 0.032969
+Move to next.
+b_l[58][477] is 0.027977 	 1.5*noise threshold is 0.025753
+Yes human detected.
+b_l[67][477] is 0.022965 	 1.5*noise threshold is 0.024138
+Move to next.
+b_l[76][477] is 0.009328 	 1.5*noise threshold is 0.02994
+Move to next.
+b_l[85][477] is 0.005644 	 1.5*noise threshold is 0.030442
+Move to next.
+b_l[94][477] is 0.010701 	 1.5*noise threshold is 0.027923
+Move to next.
+b_l[103][477] is 0.010961 	 1.5*noise threshold is 0.022738
+Move to next.
+b_l[112][477] is 0.012187 	 1.5*noise threshold is 0.018543
+Move to next.
+b_l[121][477] is 0.014997 	 1.5*noise threshold is 0.015467
+Move to next.
+b_l[130][477] is 0.015468 	 1.5*noise threshold is 0.014782
+Yes human detected.
+b_l[4][482] is 0.008277 	 1.5*noise threshold is 0.008752
+Move to next.
+b_l[13][482] is 0.007683 	 1.5*noise threshold is 0.006944
+Yes human detected.
+b_l[22][482] is 0.021443 	 1.5*noise threshold is 0.017691
+Yes human detected.
+b_l[31][482] is 0.047248 	 1.5*noise threshold is 0.038792
+Yes human detected.
+b_l[40][482] is 0.049827 	 1.5*noise threshold is 0.048579
+Yes human detected.
+b_l[49][482] is 0.016018 	 1.5*noise threshold is 0.039175
+Move to next.
+b_l[58][482] is 0.035311 	 1.5*noise threshold is 0.035296
+Yes human detected.
+b_l[67][482] is 0.042225 	 1.5*noise threshold is 0.035786
+Yes human detected.
+b_l[76][482] is 0.017954 	 1.5*noise threshold is 0.035432
+Move to next.
+b_l[85][482] is 0.005359 	 1.5*noise threshold is 0.026627
+Move to next.
+b_l[94][482] is 0.008847 	 1.5*noise threshold is 0.016617
+Move to next.
+b_l[103][482] is 0.003309 	 1.5*noise threshold is 0.011752
+Move to next.
+b_l[112][482] is 0.002527 	 1.5*noise threshold is 0.012944
+Move to next.
+b_l[121][482] is 0.00701 	 1.5*noise threshold is 0.01211
+Move to next.
+b_l[130][482] is 0.009855 	 1.5*noise threshold is 0.013027
+Move to next.
+b_l[4][487] is 0.005857 	 1.5*noise threshold is 0.009422
+Move to next.
+b_l[13][487] is 0.004177 	 1.5*noise threshold is 0.008908
+Move to next.
+b_l[22][487] is 0.009051 	 1.5*noise threshold is 0.016572
+Move to next.
+b_l[31][487] is 0.018212 	 1.5*noise threshold is 0.035391
+Move to next.
+b_l[40][487] is 0.017946 	 1.5*noise threshold is 0.039141
+Move to next.
+b_l[49][487] is 0.021224 	 1.5*noise threshold is 0.037319
+Move to next.
+b_l[58][487] is 0.032171 	 1.5*noise threshold is 0.047896
+Move to next.
+b_l[67][487] is 0.024968 	 1.5*noise threshold is 0.047548
+Move to next.
+b_l[76][487] is 0.001295 	 1.5*noise threshold is 0.034029
+Move to next.
+b_l[85][487] is 0.025206 	 1.5*noise threshold is 0.024083
+Yes human detected.
+b_l[94][487] is 0.03198 	 1.5*noise threshold is 0.028707
+Yes human detected.
+b_l[103][487] is 0.019225 	 1.5*noise threshold is 0.027501
+Move to next.
+b_l[112][487] is 0.007602 	 1.5*noise threshold is 0.024167
+Move to next.
+b_l[121][487] is 0.011061 	 1.5*noise threshold is 0.023445
+Move to next.
+b_l[130][487] is 0.010001 	 1.5*noise threshold is 0.019044
+Move to next.
+b_l[4][492] is 0.006498 	 1.5*noise threshold is 0.011025
+Move to next.
+b_l[13][492] is 0.010861 	 1.5*noise threshold is 0.012266
+Move to next.
+b_l[22][492] is 0.02815 	 1.5*noise threshold is 0.045129
+Move to next.
+b_l[31][492] is 0.049355 	 1.5*noise threshold is 0.083718
+Move to next.
+b_l[40][492] is 0.06224 	 1.5*noise threshold is 0.096485
+Move to next.
+b_l[49][492] is 0.070227 	 1.5*noise threshold is 0.090169
+Move to next.
+b_l[58][492] is 0.047766 	 1.5*noise threshold is 0.071616
+Move to next.
+b_l[67][492] is 0.006184 	 1.5*noise threshold is 0.049084
+Move to next.
+b_l[76][492] is 0.040993 	 1.5*noise threshold is 0.053341
+Move to next.
+b_l[85][492] is 0.058339 	 1.5*noise threshold is 0.069531
+Move to next.
+b_l[94][492] is 0.059089 	 1.5*noise threshold is 0.069781
+Move to next.
+b_l[103][492] is 0.052182 	 1.5*noise threshold is 0.057918
+Move to next.
+b_l[112][492] is 0.044103 	 1.5*noise threshold is 0.045502
+Move to next.
+b_l[121][492] is 0.030202 	 1.5*noise threshold is 0.036352
+Move to next.
+b_l[130][492] is 0.012701 	 1.5*noise threshold is 0.022916
+Move to next.
+b_l[4][497] is 0.001102 	 1.5*noise threshold is 0.00523
+Move to next.
+b_l[13][497] is 0.00587 	 1.5*noise threshold is 0.015252
+Move to next.
+b_l[22][497] is 0.016841 	 1.5*noise threshold is 0.059602
+Move to next.
+b_l[31][497] is 0.020743 	 1.5*noise threshold is 0.114803
+Move to next.
+b_l[40][497] is 0.008134 	 1.5*noise threshold is 0.129613
+Move to next.
+b_l[49][497] is 0.045014 	 1.5*noise threshold is 0.106009
+Move to next.
+b_l[58][497] is 0.066557 	 1.5*noise threshold is 0.08595
+Move to next.
+b_l[67][497] is 0.051458 	 1.5*noise threshold is 0.067287
+Move to next.
+b_l[76][497] is 0.02881 	 1.5*noise threshold is 0.077903
+Move to next.
+b_l[85][497] is 0.04594 	 1.5*noise threshold is 0.115014
+Move to next.
+b_l[94][497] is 0.052057 	 1.5*noise threshold is 0.127792
+Move to next.
+b_l[103][497] is 0.036043 	 1.5*noise threshold is 0.098263
+Move to next.
+b_l[112][497] is 0.027438 	 1.5*noise threshold is 0.056874
+Move to next.
+b_l[121][497] is 0.025753 	 1.5*noise threshold is 0.028698
+Move to next.
+b_l[130][497] is 0.019533 	 1.5*noise threshold is 0.022123
+Move to next.
+b_l[4][502] is 0.004434 	 1.5*noise threshold is 0.010364
+Move to next.
+b_l[13][502] is 0.00874 	 1.5*noise threshold is 0.019622
+Move to next.
+b_l[22][502] is 0.038963 	 1.5*noise threshold is 0.069113
+Move to next.
+b_l[31][502] is 0.074418 	 1.5*noise threshold is 0.127349
+Move to next.
+b_l[40][502] is 0.093126 	 1.5*noise threshold is 0.143323
+Move to next.
+b_l[49][502] is 0.094498 	 1.5*noise threshold is 0.123922
+Move to next.
+b_l[58][502] is 0.084327 	 1.5*noise threshold is 0.109658
+Move to next.
+b_l[67][502] is 0.069238 	 1.5*noise threshold is 0.083467
+Move to next.
+b_l[76][502] is 0.070679 	 1.5*noise threshold is 0.100815
+Move to next.
+b_l[85][502] is 0.068471 	 1.5*noise threshold is 0.125922
+Move to next.
+b_l[94][502] is 0.064702 	 1.5*noise threshold is 0.114761
+Move to next.
+b_l[103][502] is 0.064501 	 1.5*noise threshold is 0.080949
+Move to next.
+b_l[112][502] is 0.05548 	 1.5*noise threshold is 0.04992
+Yes human detected.
+b_l[121][502] is 0.041279 	 1.5*noise threshold is 0.032001
+Yes human detected.
+b_l[130][502] is 0.025936 	 1.5*noise threshold is 0.031681
+Move to next.
+b_l[4][507] is 0.009307 	 1.5*noise threshold is 0.023121
+Move to next.
+b_l[13][507] is 0.034209 	 1.5*noise threshold is 0.040135
+Move to next.
+b_l[22][507] is 0.167566 	 1.5*noise threshold is 0.137295
+Yes human detected.
+b_l[31][507] is 0.352551 	 1.5*noise threshold is 0.264324
+Yes human detected.
+b_l[40][507] is 0.380876 	 1.5*noise threshold is 0.270601
+Yes human detected.
+b_l[49][507] is 0.171373 	 1.5*noise threshold is 0.150541
+Yes human detected.
+b_l[58][507] is 0.082962 	 1.5*noise threshold is 0.144515
+Move to next.
+b_l[67][507] is 0.175236 	 1.5*noise threshold is 0.168105
+Yes human detected.
+b_l[76][507] is 0.165257 	 1.5*noise threshold is 0.126429
+Yes human detected.
+b_l[85][507] is 0.155308 	 1.5*noise threshold is 0.154091
+Yes human detected.
+b_l[94][507] is 0.133095 	 1.5*noise threshold is 0.171592
+Move to next.
+b_l[103][507] is 0.101919 	 1.5*noise threshold is 0.143035
+Move to next.
+b_l[112][507] is 0.079662 	 1.5*noise threshold is 0.089642
+Move to next.
+b_l[121][507] is 0.065901 	 1.5*noise threshold is 0.049794
+Yes human detected.
+b_l[130][507] is 0.05571 	 1.5*noise threshold is 0.047784
+Yes human detected.
