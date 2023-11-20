@@ -35,7 +35,7 @@ def peak_detected(b_l, low, high, fd):
     temp=[]
 
     if fd == 1:
-        temp[:40] = np.zeros(40)
+        temp[:40] = np.zeros(0)
 
     else:
     #{'1':low,'2':high-1,'3':fd,'4':"add results of sliding window"}
@@ -132,11 +132,14 @@ def peak_detectedv2(b_l, low, high, fd):
                 for w in range(0,141):
                     #TESTER w=5; h=20
 
+                    # if (h==63 or h==62):
+                    #     temp.append(2)
+    
+                    # elif (h%5<2): 
                     if (h%5<2):
                         temp.append(0)
 
-                    if (h%5==2):
-                        # if (w<(135+2)):
+                    elif (h%5==2):
                         if (w<(135+2)):
                             if (w%9<4):
                                 temp.append(0)
@@ -191,10 +194,10 @@ def peak_detectedv2(b_l, low, high, fd):
                             if (w%9>4):
                                 temp.append(0)
                         else:#(w is 137 138 139 140)
-                                temp.append(0)
+                                temp.append(2)
                         
 
-                    if (h%5>2):
+                    elif (h%5>2):
                         temp.append(0)
                     #else:
                         #temp.append(0)
@@ -205,7 +208,6 @@ def peak_detectedv2(b_l, low, high, fd):
     update_logs091023(low, high, fd, "./data/logs"+DDMM+"23.txt")
     
     return temp
-
 
 def image_show(image,caption):
     col1, col2, col3 = st.columns(3)
@@ -219,6 +221,224 @@ def image_show(image,caption):
     with col3:
         st.write(' ')
 
+###Amended from https://doi.org/10.1007/s10877-023-01037-x Acessed date: 06 Oct 23
+def VMD(signal, alpha, tau, K, DC, init, tol, low, high, fd):
+    # ---------------------
+    # signal - the time domain signal (1D) to be decomposed 
+    # 
+    # alpha - the balancing parameter of the data-fidelity constraint 
+    # 
+    # tau - time-step of the dual ascent ( pick 0 for noise-slack )
+    # 
+    # K - the number of modes to be recovered
+    # DC - true if the first mode is put and kept at DC (0-freq)
+    # 
+    # init - 0 = all omegas start at 0
+    # 1 = all omegas start uniformly distributed
+    # 2 = all omegas initialized randomly
+    # tol - tolerance of convergence criterion; typically around 1e-6
+    # 
+    #
+    # Output:
+    # -------
+    # u - the collection of decomposed modes 
+    # u_hat - spectra of the modes 
+    # omega - estimated mode center-frequencies 
+    #
+    import numpy as np
+    import math
+    import matplotlib.pyplot as plt
+    # Period and sampling frequency of input signal
+    save_T=len(signal)
+    fs=1/float(save_T)
+    #print("save_T=:")
+    #print(save_T)
+    # extend the signal by mirroring 
+    # size: 2048 data points
+    T=save_T
+    f_mirror=np.zeros(2*T)
+    f_mirror[0:T//2]=signal[T//2-1::-1]
+    f_mirror[T//2:3*T//2]= signal
+    f_mirror[3*T//2:2*T]=signal[-1:-T//2-1:-1]
+    
+    # signal size =2048 data points to f #ab:######## where size of signal was first fixed.
+    f=f_mirror
+    T=float(len(f))
+    t=np.linspace(1/float(T),1,int(T),endpoint=True)
+    # Spectral Domain discretization 
+    freqs=t-0.5-1/T
+    N=2000
+    # For future generalizations: individual alpha for each mode
+    # penalty index、balance parameter
+    Alpha=alpha*np.ones(K,dtype=complex)
+    print(TP21) #<<<<<<<<<<<<<<<<<<<         <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<               <<<<<<<<<<<<TP21 start of IMF
+    # Construct and center f_hat Fourier transform of signal
+    f_hat=np.fft.fftshift(np.fft.fft(f))
+    f_hat_plus=f_hat
+    f_hat_plus[0:int(int(T)/2)]=0
+    
+    # matrix keeping track of every iterant
+    # could be discarded for mem
+    u_hat_plus=np.zeros((N,len(freqs),K),dtype=complex)
+    
+    #print("u_hat_plus.shape:=", u_hat_plus.shape)
+    #print("u_hat_plus:=", u_hat_plus)
+    
+    # Initialization of omega_k
+    omega_plus=np.zeros((N,K),dtype=complex)
+    #print("omega_plus.shape:=", omega_plus.shape)
+    #print("omega_plus:=", omega_plus)
+    
+    if (init==1):
+        for i in range(1,K+1):
+            omega_plus[0,i-1]=(0.5/K)*(i-1)
+    elif (init==2):
+        omega_plus[0,:]=np.sort(math.exp(math.log(fs))+(math.log(0.5)
+        -math.log(fs))*np.random.rand(1,K))
+    else:
+        omega_plus[0,:]=0
+    if (DC):
+        omega_plus[0,0]=0
+    
+    # start with empty dual variables: Lagrange multiplier λ
+    lamda_hat=np.zeros((N,len(freqs)),dtype=complex)
+    # other inits
+    uDiff=tol+2.2204e-16 #updata step 
+    n=1 #loop counter
+    sum_uk=0 #accumulator
+    T=int(T)
+    # ----------- Main loop for iterative updates
+    # renew n、and minimize u_hat& omega_hat
+    # Algorithm 2 Complete optimization of VMD
+    
+    while uDiff > tol and n<N:
+        # while uDiff > tol and n<4:
+        # update first mode accumulator
+        k=1
+        sum_uk = u_hat_plus[n-1,:,K-1] + sum_uk - u_hat_plus[n-1,:,0]
+        
+        #update spectrum of first mode through Wiener filter of residuals
+        # equation in the paper (27)
+        freqs_square = np.square(freqs - omega_plus[n-1,k-1]) 
+        u_hat_plus[n,:,k-1]=(f_hat_plus - sum_uk\
+        - lamda_hat[n-1,:]/2)/(1 + Alpha[k-1] * freqs_square)
+        
+        # update first omega if not held at 0
+        # equation(28) The calculation of the integral is substituted by the inner product.
+        if DC==False: 
+            omega_plus[n,k-1]= (np.dot(freqs[T//2:T],
+            (np.square(np.abs(u_hat_plus[n,T//2:T,k-1]))).T))\
+            /(np.sum(np.square(np.abs(u_hat_plus[n,T//2:T,k-1]))))
+            #print("n=:",n, "k=:",k, "omega_plus[n,k-1]:=", omega_plus[n,k-1])
+        
+        for k in range(2,K+1):
+            # accumulator
+            sum_uk = u_hat_plus[n,:,k-2] + sum_uk - u_hat_plus[n-1,:,k-1]
+            
+            # mode spectrum 
+            u_hat_plus[n,:,k-1]= (f_hat_plus - sum_uk
+            - lamda_hat[n-1,:]/2)/(1+Alpha[k-1]
+            * np.square(freqs - omega_plus[n-1,k-1]))
+
+            # center frequencies
+            omega_plus[n,k-1]=np.dot(freqs[T//2:T],
+            np.square(np.abs(u_hat_plus[n,T//2:T,k-1])).T)\
+            /np.sum(np.square(np.abs(u_hat_plus[n,T//2:T:,k-1])))
+            
+            # Dual ascent
+            # equation in the paper(29)
+            lamda_hat[n,:]=lamda_hat[n-1,:]\
+            +tau*(np.sum(u_hat_plus[n,:,:],axis=1) - f_hat_plus) 
+
+        #loop counter : Comparison with convergence criteria
+        n=n+1
+        uDiff=2.2204e-16
+
+        for i in range(1,K+1): 
+            uDiff=uDiff+1/float(T)*(np.dot(np.conj(u_hat_plus[n-1,:,i-1]
+            - u_hat_plus[n-2,:,i-1]).conj().T,
+            np.conj(u_hat_plus[n-1,:,i-1]
+            - u_hat_plus[n-2,:,i-1]).conj().T)) 
+        
+        uDiff=np.abs(uDiff)
+        #print("n=:", n)
+    
+    # ------ Postprocessing and cleanup
+    # discard empty space if converged early
+    N=np.minimum(N,n)
+    omega = omega_plus[0:N,:]
+    
+    # Signal reconstruction. Calculate IMF from frequency components by inverse Fourier transform
+    u_hat = np.zeros((T,K),dtype=complex)
+    u_hat[T//2:T,:]= np.squeeze(u_hat_plus[N-1,T//2:T,:])
+    u_hat[T//2:0:-1,:]=np.squeeze(np.conj(u_hat_plus[N-1,T//2:T,:]))
+    u_hat[0,:]=np.conj(u_hat[-1,:])
+    u=np.zeros((K,len(t)),dtype=complex)
+
+    for k in range(1,K+1):
+        u[k-1,:]= np.real(np.fft.ifft(np.fft.ifftshift(u_hat[:,k-1])))
+    
+    # remove mirror part 
+    u=u[:,T//4:3*T//4]
+    
+    for k in range(1,K+1): 
+        #filename_ifft = "./data/data_eeg/{}_imf-%d.txt" .format(str(n).zfill(3)) %(k)
+        filename_ifft = "./data/data_LFC/{}__imf-%d.txt" .format(str(low).zfill(6)) %k
+        np.savetxt(filename_ifft, u[k-1,:])
+    
+    # recompute spectrum Obtain the frequency spectrum from the IMF by Fourier transform.
+    u_hat = np.zeros((T//2, K),dtype=complex)
+
+    for k in range(1,K+1):
+        # u_hat[:, k-1]= ((np.fft.fftshift(np.fft.fft(u[k-1,:]))).conj()).T
+        u_hat[:, k-1]= ((np.fft.fft(u[k-1,:])).conj()).T
+        #print("u_hat.shape=:", u_hat.shape)
+    
+    fft_amp = np.zeros((T//2, K), dtype = 'float64')
+    for k in range(1,K+1):
+        filename_fft = "./data/data_LFC/{}__fft-%d.txt" .format(str(low).zfill(6)) %(k)
+        np.savetxt(filename_fft, np.abs(u_hat[:,k-1]/ (128 / 2))) 
+        fft_amp[:, k-1] = np.abs(u_hat[:,k-1] / (128 / 2))
+    
+    
+    fft_axis = np.linspace(0, 128, int(T/2))
+    rcParams['figure.figsize'] = 10,4
+    fig = plt.figure()
+    
+    plt.plot(signal)            #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    plt.show()
+    filename1 = "./data/data_LFC/sigall.svg"
+    fig.savefig(filename1)
+    
+    
+    fig4 = plt.figure()
+    N=len(signal)
+    f_sig= fftpack.fft(signal) #Amended fft(signal) to fftpack.fft(sig)
+    plt.plot(fft_axis[0:int(T/4)], 2.0/N*abs(f_sig[0:int(N/2)])) #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    plt.yscale("log")
+    plt.show()
+    filename4 = "./data/data_LFC/spectrumall.svg"
+    fig4.savefig(filename4)
+
+    for i in range(1,K+1):
+        fig2 = plt.figure()
+        plt.plot(u[i-1,:])
+        plt.title("K is now at %i" %i )
+        plt.show()
+        filename2 = "./data/data_LFC/{}__imf-%d.svg" .format(str(low).zfill(6)) %(i)
+        fig2.savefig(filename2)
+    # print("FFT Power Spectrum")
+    # for i in range(1,K+1):
+    #     fig3 = plt.figure()
+    #     plt.plot(fft_axis[0:int(T/4)], fft_amp[0:int(T/4),i-1])
+    #     plt.title("K is now at %i" %i )
+    #     plt.show() 
+    #     filename3 = "./data/data_LFC/{}_fft-%d.svg" .format(str(n).zfill(3)) %(i)
+    #     fig3.savefig(filename3)
+    plt.close()
+ 
+    return (u,u_hat,omega)
+
 st.set_page_config(
     page_title = '[Room Occupancy:] Real-Time Signal Processing',
     page_icon = '✅',
@@ -226,8 +446,8 @@ st.set_page_config(
 )
 
 # read csv from a github repo
-#dataset_url = "https://raw.githubusercontent.com/wyCHEUNGa/HomeWaves/main/raw14.csv"
-dataset_url = "https://raw.githubusercontent.com/wyCHEUNGa/HomeWaves/main/test2.csv"
+dataset_url = "https://raw.githubusercontent.com/wyCHEUNGa/HomeWaves/main/raw14.csv"
+#dataset_url = "https://raw.githubusercontent.com/wyCHEUNGa/HomeWaves/main/test2.csv"
 #df_RO = pd.read_csv("https://raw.githubusercontent.com/Lexie88rus/bank-marketing-analysis/master/bank.csv")
 
 # read csv from a URL
@@ -237,10 +457,11 @@ def get_data() -> pd.DataFrame:
 #df = get_data()
 df = pd.read_csv(dataset_url, header=None)
 
-DDMM = "0311"  ### Update Correct Today's Date ###
+DDMM = "2011"  ### Update Correct Today's Date ###
 TP01 = "Program Loaded"
 TP02 = "Initialisaton of Pandas DataFrame completed."
 TP03 = "Demo Code Starts Here"
+TP21 = "IMF Save file into data_LPC folder"
 TP12 = "Debugging>>>"
 
 ################################################################################################################################################
@@ -364,9 +585,9 @@ print("Done Clutter Shift, 2nd heatmap in line will be displayed.")
 #output b_s and b and comparision statement
 ###Total: 1131 | Strategically Take x[0-9][0] | Take x[0-9][1] | ...| Take x[0-9][140]
 ###Created by the above strategic, a 9x141 short observation. There r 4 short in 1 long observ
-s = (141,128); b_s=np.zeros(s)
-s = (141,512); b_l=np.zeros(s)
-s = (128); tem=np.zeros(s)
+s = (141,64); b_s=np.zeros(s) #16 #10  #64
+s = (141,512); b_l=np.zeros(s) #64 #40  #512
+s = (64); tem=np.zeros(s)
 s = (512); longobsvtem=np.zeros(s)
 c = 1.2 #page 70:10
 cnt = 0
@@ -380,9 +601,9 @@ while(cnt<np.floor(len(df_141complex[0])/512)):
 
     ####For the 1st b_l block... get b_l block for [0-40)
     low=512*cnt; high=low+512 #512 will be exclusive
-    ptr = np.random.randint(low,high-127)            #randomise any 10 data for bs. Param 2 exclusive.
+    ptr = np.random.randint(low,high-63)            #randomise any 10 data for bs. Param 2 exclusive.
     for j in range(0,141):
-        for i in range(ptr,ptr+128):      #any 100 between [0-30] 30 incluc.
+        for i in range(ptr,ptr+64):      #any 100 between [0-30] 30 incluc.
             
             tem[i-ptr]=clutter_suppr[i][j]      #clutter_suppr[10][0] to clutter_suppr[19][0]
         
@@ -393,7 +614,7 @@ while(cnt<np.floor(len(df_141complex[0])/512)):
     ########################################################
 
     #For 1x single b_l block, finding out FFT is useable or not useable
-    signalSTR = np.max(b_s)/(np.sum(b_s)/(128*141))
+    signalSTR = np.max(b_s)/(np.sum(b_s)/(64*141))
 
     for j in range(0,141):
         for i in range(low,high):      #  [40-80)
@@ -405,6 +626,7 @@ while(cnt<np.floor(len(df_141complex[0])/512)):
                                                     #i = [1120:~not computerised]
         
         b_l[j][:]=np.abs(fftpack.fft(longobsvtem))
+
     
     signalSTRL = np.max(b_l)/(np.sum(b_l)/(512*141))
     if signalSTR>(c*signalSTRL):
@@ -425,13 +647,27 @@ while(cnt<np.floor(len(df_141complex[0])/512)):
             print(flags_if[i])
         else:
             print(flags_if[i],end="")
+    res_list = list(filter(lambda x: flags_if[x] == 1, range(len(flags_if))))
+ 
+    print(res_list)
     print("\n\n")
     print("Done Selecting Peaks, Logs Available. ")
 
 ################################################################################################################################################
 
-#### Starting "Vibration Decomposition via Variational Mode Decomposition" -- Multi-Sequence VMD Algorithm
+    #### Starting "Variational Mode Decomposition" -- VMD Algorithm accessed 18 Oct 23
 
+    alpha = 2000.0 
+    tau = 0 
+    DC = 0 
+    init = 1 
+    tol = 1e-7
+
+    K = 3 #6
+
+    tarr1 = np.transpose(clutter_suppr[low:high])   #tarr1 is used once
+    u,u_hat,omega = VMD(tarr1[442%141], alpha, tau, K, DC, init, tol, low, high, fastdetected)
+    
 ########################################################################
 ########################################################################
 ########################################################################
@@ -526,6 +762,21 @@ for seconds in range(190): #smth to do with once every 5~6 seconds
 
         plt.close()
         time.sleep(1)
+        ###################################################IMF K=3
+        cnt = 0
+        while(cnt<np.floor(len(df_141complex[0])/512)):
+            low = 512*cnt; high = low+512
+            image_show("./data/data_LFC/sigall.svg",        "count between {} to %d ==> block signal-512"  .format(str(low).zfill(6)) %high)
+            image_show("./data/data_LFC/spectrumall.svg",   "count between {} to %d ==> block signal-log-fft"  .format(str(low).zfill(6)) %high)
+            image_show("./data/data_LFC/{}__imf-1.svg" .format(str(low).zfill(6)),      "count between {} to %d ==> IMF 1"  .format(str(low).zfill(6)) %high)
+            image_show("./data/data_LFC/{}__imf-2.svg"  .format(str(low).zfill(6)),     "count between {} to %d ==> IMF 2" .format(str(low).zfill(6)) %high)
+            image_show("./data/data_LFC/{}__imf-3.svg"  .format(str(low).zfill(6)),     "count between {} to %d ==> IMF 3"  .format(str(low).zfill(6)) %high)
+            # image_show(Image.open("./data/data_LFC/{}_imf-%d.svg" .format(str(n).zfill(3)) %(i)),"count between %d to %d" %low %high "==> IMF xx")
+            cnt = cnt + 1
+
+
+        
+        
         ###################################################
 
         # create three columns
